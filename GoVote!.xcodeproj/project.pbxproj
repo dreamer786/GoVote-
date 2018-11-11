@@ -17,7 +17,11 @@
 		182EA37F2198A53F00A816B4 /* QueryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA37E2198A53F00A816B4 /* QueryController.swift */; };
 		182EA3822198AEAA00A816B4 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA3812198AEAA00A816B4 /* UITextField.swift */; };
 		182EA3842198AF3600A816B4 /* MyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA3832198AF3600A816B4 /* MyPickerView.swift */; };
+		182EA3862198BD3D00A816B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */; };
+		21BC1CEC3E4ABFE48C675181 /* Pods_GoVote_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */; };
 		3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926B7F72198A5F300FE5217 /* NavigationViewController.swift */; };
+		4E3253E06D629A503084BDFF /* Pods_GoVote_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3449C95C5FCA5881B0AEDD5 /* Pods_GoVote_Tests.framework */; };
+		D9777CB87524915FFF9C4E15 /* Pods_GoVote_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1100E2EAB2FF6D3FCEA9523E /* Pods_GoVote_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1100E2EAB2FF6D3FCEA9523E /* Pods_GoVote_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoVote_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		182EA34D21989A6F00A816B4 /* GoVote!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoVote!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		182EA35021989A6F00A816B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		182EA35221989A6F00A816B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +59,16 @@
 		182EA37E2198A53F00A816B4 /* QueryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryController.swift; sourceTree = "<group>"; };
 		182EA3812198AEAA00A816B4 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		182EA3832198AF3600A816B4 /* MyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerView.swift; sourceTree = "<group>"; };
+		182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		312430A16CB626B7F0725EEB /* Pods-GoVote!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!Tests/Pods-GoVote!Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3926B7F72198A5F300FE5217 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoVote_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FA5CADAFC51351EEB4AE667 /* Pods-GoVote!UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!UITests/Pods-GoVote!UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FB9F03281289D26110FDB20 /* Pods-GoVote!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!/Pods-GoVote!.debug.xcconfig"; sourceTree = "<group>"; };
+		A3449C95C5FCA5881B0AEDD5 /* Pods_GoVote_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoVote_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58EAFBE80073F8B4D2CD5A4 /* Pods-GoVote!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!/Pods-GoVote!.release.xcconfig"; sourceTree = "<group>"; };
+		B272D2C6EED6A8360E71B196 /* Pods-GoVote!Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!Tests/Pods-GoVote!Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E96FA20EB85096DA862469B2 /* Pods-GoVote!UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!UITests/Pods-GoVote!UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9777CB87524915FFF9C4E15 /* Pods_GoVote_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3253E06D629A503084BDFF /* Pods_GoVote_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21BC1CEC3E4ABFE48C675181 /* Pods_GoVote_UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14631B32A4CE2C62C8042E34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1100E2EAB2FF6D3FCEA9523E /* Pods_GoVote_.framework */,
+				A3449C95C5FCA5881B0AEDD5 /* Pods_GoVote_Tests.framework */,
+				40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		182EA34421989A6F00A816B4 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +116,8 @@
 				182EA36421989A7100A816B4 /* GoVote!Tests */,
 				182EA36F21989A7100A816B4 /* GoVote!UITests */,
 				182EA34E21989A6F00A816B4 /* Products */,
+				66812A0EC573AEFD4CF7C9A9 /* Pods */,
+				14631B32A4CE2C62C8042E34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +142,7 @@
 				182EA35921989A7100A816B4 /* LaunchScreen.storyboard */,
 				182EA35C21989A7100A816B4 /* Info.plist */,
 				182EA37E2198A53F00A816B4 /* QueryController.swift */,
+				182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */,
 				182EA3802198AE7800A816B4 /* Extensions */,
 				182EA3832198AF3600A816B4 /* MyPickerView.swift */,
 			);
@@ -145,6 +175,19 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		66812A0EC573AEFD4CF7C9A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9F03281289D26110FDB20 /* Pods-GoVote!.debug.xcconfig */,
+				A58EAFBE80073F8B4D2CD5A4 /* Pods-GoVote!.release.xcconfig */,
+				B272D2C6EED6A8360E71B196 /* Pods-GoVote!Tests.debug.xcconfig */,
+				312430A16CB626B7F0725EEB /* Pods-GoVote!Tests.release.xcconfig */,
+				9FA5CADAFC51351EEB4AE667 /* Pods-GoVote!UITests.debug.xcconfig */,
+				E96FA20EB85096DA862469B2 /* Pods-GoVote!UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182EA37521989A7100A816B4 /* Build configuration list for PBXNativeTarget "GoVote!" */;
 			buildPhases = (
+				226C8EC6CE0E77823E825A28 /* [CP] Check Pods Manifest.lock */,
 				182EA34921989A6F00A816B4 /* Sources */,
 				182EA34A21989A6F00A816B4 /* Frameworks */,
 				182EA34B21989A6F00A816B4 /* Resources */,
+				0D8C6D91BE55CB6BF19A68B2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182EA37821989A7100A816B4 /* Build configuration list for PBXNativeTarget "GoVote!Tests" */;
 			buildPhases = (
+				FED6C216C34A1A4F7A55E907 /* [CP] Check Pods Manifest.lock */,
 				182EA35D21989A7100A816B4 /* Sources */,
 				182EA35E21989A7100A816B4 /* Frameworks */,
 				182EA35F21989A7100A816B4 /* Resources */,
@@ -187,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182EA37B21989A7100A816B4 /* Build configuration list for PBXNativeTarget "GoVote!UITests" */;
 			buildPhases = (
+				058F5839A99D3A5DFF2B9D78 /* [CP] Check Pods Manifest.lock */,
 				182EA36821989A7100A816B4 /* Sources */,
 				182EA36921989A7100A816B4 /* Frameworks */,
 				182EA36A21989A7100A816B4 /* Resources */,
@@ -250,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				182EA35B21989A7100A816B4 /* LaunchScreen.storyboard in Resources */,
+				182EA3862198BD3D00A816B4 /* GoogleService-Info.plist in Resources */,
 				182EA35821989A7100A816B4 /* Assets.xcassets in Resources */,
 				182EA35621989A6F00A816B4 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +318,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		058F5839A99D3A5DFF2B9D78 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoVote!UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D8C6D91BE55CB6BF19A68B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoVote!/Pods-GoVote!-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoVote!/Pods-GoVote!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		226C8EC6CE0E77823E825A28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoVote!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED6C216C34A1A4F7A55E907 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoVote!Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		182EA34921989A6F00A816B4 /* Sources */ = {
@@ -452,6 +593,7 @@
 		};
 		182EA37621989A7100A816B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FB9F03281289D26110FDB20 /* Pods-GoVote!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +611,7 @@
 		};
 		182EA37721989A7100A816B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A58EAFBE80073F8B4D2CD5A4 /* Pods-GoVote!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +629,7 @@
 		};
 		182EA37921989A7100A816B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B272D2C6EED6A8360E71B196 /* Pods-GoVote!Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +650,7 @@
 		};
 		182EA37A21989A7100A816B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312430A16CB626B7F0725EEB /* Pods-GoVote!Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -526,6 +671,7 @@
 		};
 		182EA37C21989A7100A816B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA5CADAFC51351EEB4AE667 /* Pods-GoVote!UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +691,7 @@
 		};
 		182EA37D21989A7100A816B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96FA20EB85096DA862469B2 /* Pods-GoVote!UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
