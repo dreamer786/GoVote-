@@ -1,12 +1,24 @@
 // !$*UTF8*$!
 {
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 50;
-	objects = {
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 50;
+    objects = {
 
 /* Begin PBXBuildFile section */
+
+        182EA35121989A6F00A816B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA35021989A6F00A816B4 /* AppDelegate.swift */; };
+        182EA35321989A6F00A816B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA35221989A6F00A816B4 /* ViewController.swift */; };
+        182EA35621989A6F00A816B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182EA35421989A6F00A816B4 /* Main.storyboard */; };
+        182EA35821989A7100A816B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182EA35721989A7100A816B4 /* Assets.xcassets */; };
+        182EA35B21989A7100A816B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182EA35921989A7100A816B4 /* LaunchScreen.storyboard */; };
+        182EA36621989A7100A816B4 /* GoVote_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA36521989A7100A816B4 /* GoVote_Tests.swift */; };
+        182EA37121989A7100A816B4 /* GoVote_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA37021989A7100A816B4 /* GoVote_UITests.swift */; };
+        3926B7F62198A58F00FE5217 /* GoVote! in Resources */ = {isa = PBXBuildFile; fileRef = 3926B7F52198A58F00FE5217 /* GoVote! */; };
+        3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926B7F72198A5F300FE5217 /* NavigationViewController.swift */; };
+        182EA37F2198A53F00A816B4 /* QueryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA37E2198A53F00A816B4 /* QueryController.swift */; };
+
 		182EA35121989A6F00A816B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA35021989A6F00A816B4 /* AppDelegate.swift */; };
 		182EA35321989A6F00A816B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA35221989A6F00A816B4 /* ViewController.swift */; };
 		182EA35621989A6F00A816B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182EA35421989A6F00A816B4 /* Main.storyboard */; };
@@ -25,20 +37,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		182EA36221989A7100A816B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 182EA34521989A6F00A816B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 182EA34C21989A6F00A816B4;
-			remoteInfo = "GoVote!";
-		};
-		182EA36D21989A7100A816B4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 182EA34521989A6F00A816B4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 182EA34C21989A6F00A816B4;
-			remoteInfo = "GoVote!";
-		};
+        182EA36221989A7100A816B4 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = 182EA34521989A6F00A816B4 /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = 182EA34C21989A6F00A816B4;
+            remoteInfo = "GoVote!";
+        };
+        182EA36D21989A7100A816B4 /* PBXContainerItemProxy */ = {
+            isa = PBXContainerItemProxy;
+            containerPortal = 182EA34521989A6F00A816B4 /* Project object */;
+            proxyType = 1;
+            remoteGlobalIDString = 182EA34C21989A6F00A816B4;
+            remoteInfo = "GoVote!";
+        };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -251,47 +263,104 @@
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		182EA34521989A6F00A816B4 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = nyu.edu;
-				TargetAttributes = {
-					182EA34C21989A6F00A816B4 = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					182EA36021989A7100A816B4 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 182EA34C21989A6F00A816B4;
-					};
-					182EA36B21989A7100A816B4 = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 182EA34C21989A6F00A816B4;
-					};
-				};
-			};
-			buildConfigurationList = 182EA34821989A6F00A816B4 /* Build configuration list for PBXProject "GoVote!" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 182EA34421989A6F00A816B4;
-			productRefGroup = 182EA34E21989A6F00A816B4 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				182EA34C21989A6F00A816B4 /* GoVote! */,
-				182EA36021989A7100A816B4 /* GoVote!Tests */,
-				182EA36B21989A7100A816B4 /* GoVote!UITests */,
-			);
-		};
+        182EA34521989A6F00A816B4 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastSwiftUpdateCheck = 0940;
+                LastUpgradeCheck = 0940;
+                ORGANIZATIONNAME = nyu.edu;
+                TargetAttributes = {
+                    182EA34C21989A6F00A816B4 = {
+                        CreatedOnToolsVersion = 9.4.1;
+                    };
+                    182EA36021989A7100A816B4 = {
+                        CreatedOnToolsVersion = 9.4.1;
+                        TestTargetID = 182EA34C21989A6F00A816B4;
+                    };
+                    182EA36B21989A7100A816B4 = {
+                        CreatedOnToolsVersion = 9.4.1;
+                        TestTargetID = 182EA34C21989A6F00A816B4;
+                    };
+                };
+            };
+            buildConfigurationList = 182EA34821989A6F00A816B4 /* Build configuration list for PBXProject "GoVote!" */;
+            compatibilityVersion = "Xcode 9.3";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = 182EA34421989A6F00A816B4;
+            productRefGroup = 182EA34E21989A6F00A816B4 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                182EA34C21989A6F00A816B4 /* GoVote! */,
+                182EA36021989A7100A816B4 /* GoVote!Tests */,
+                182EA36B21989A7100A816B4 /* GoVote!UITests */,
+            );
+        };
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+
+        182EA34B21989A6F00A816B4 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                3926B7F62198A58F00FE5217 /* GoVote! in Resources */,
+                182EA35B21989A7100A816B4 /* LaunchScreen.storyboard in Resources */,
+                182EA35821989A7100A816B4 /* Assets.xcassets in Resources */,
+                182EA35621989A6F00A816B4 /* Main.storyboard in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        182EA35F21989A7100A816B4 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        182EA36A21989A7100A816B4 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        182EA34921989A6F00A816B4 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */,
+                182EA35321989A6F00A816B4 /* ViewController.swift in Sources */,
+                182EA37F2198A53F00A816B4 /* QueryController.swift in Sources */,
+                182EA35121989A6F00A816B4 /* AppDelegate.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        182EA35D21989A7100A816B4 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                182EA36621989A7100A816B4 /* GoVote_Tests.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+        182EA36821989A7100A816B4 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                182EA37121989A7100A816B4 /* GoVote_UITests.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
 		182EA34B21989A6F00A816B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,38 +511,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		182EA36321989A7100A816B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 182EA34C21989A6F00A816B4 /* GoVote! */;
-			targetProxy = 182EA36221989A7100A816B4 /* PBXContainerItemProxy */;
-		};
-		182EA36E21989A7100A816B4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 182EA34C21989A6F00A816B4 /* GoVote! */;
-			targetProxy = 182EA36D21989A7100A816B4 /* PBXContainerItemProxy */;
-		};
+        182EA36321989A7100A816B4 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = 182EA34C21989A6F00A816B4 /* GoVote! */;
+            targetProxy = 182EA36221989A7100A816B4 /* PBXContainerItemProxy */;
+        };
+        182EA36E21989A7100A816B4 /* PBXTargetDependency */ = {
+            isa = PBXTargetDependency;
+            target = 182EA34C21989A6F00A816B4 /* GoVote! */;
+            targetProxy = 182EA36D21989A7100A816B4 /* PBXContainerItemProxy */;
+        };
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		182EA35421989A6F00A816B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				182EA35521989A6F00A816B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		182EA35921989A7100A816B4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				182EA35A21989A7100A816B4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
+        182EA35421989A6F00A816B4 /* Main.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                182EA35521989A6F00A816B4 /* Base */,
+            );
+            name = Main.storyboard;
+            sourceTree = "<group>";
+        };
+        182EA35921989A7100A816B4 /* LaunchScreen.storyboard */ = {
+            isa = PBXVariantGroup;
+            children = (
+                182EA35A21989A7100A816B4 /* Base */,
+            );
+            name = LaunchScreen.storyboard;
+            sourceTree = "<group>";
+        };
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -712,43 +782,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		182EA34821989A6F00A816B4 /* Build configuration list for PBXProject "GoVote!" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				182EA37321989A7100A816B4 /* Debug */,
-				182EA37421989A7100A816B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		182EA37521989A7100A816B4 /* Build configuration list for PBXNativeTarget "GoVote!" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				182EA37621989A7100A816B4 /* Debug */,
-				182EA37721989A7100A816B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		182EA37821989A7100A816B4 /* Build configuration list for PBXNativeTarget "GoVote!Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				182EA37921989A7100A816B4 /* Debug */,
-				182EA37A21989A7100A816B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		182EA37B21989A7100A816B4 /* Build configuration list for PBXNativeTarget "GoVote!UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				182EA37C21989A7100A816B4 /* Debug */,
-				182EA37D21989A7100A816B4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
+        182EA34821989A6F00A816B4 /* Build configuration list for PBXProject "GoVote!" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                182EA37321989A7100A816B4 /* Debug */,
+                182EA37421989A7100A816B4 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        182EA37521989A7100A816B4 /* Build configuration list for PBXNativeTarget "GoVote!" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                182EA37621989A7100A816B4 /* Debug */,
+                182EA37721989A7100A816B4 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        182EA37821989A7100A816B4 /* Build configuration list for PBXNativeTarget "GoVote!Tests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                182EA37921989A7100A816B4 /* Debug */,
+                182EA37A21989A7100A816B4 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        182EA37B21989A7100A816B4 /* Build configuration list for PBXNativeTarget "GoVote!UITests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                182EA37C21989A7100A816B4 /* Debug */,
+                182EA37D21989A7100A816B4 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
 /* End XCConfigurationList section */
-	};
-	rootObject = 182EA34521989A6F00A816B4 /* Project object */;
+    };
+    rootObject = 182EA34521989A6F00A816B4 /* Project object */;
 }
