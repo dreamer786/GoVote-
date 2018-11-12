@@ -9,7 +9,7 @@
 import UIKit
 
 class QueryController: UIViewController {
-    @IBOutlet weak var pickerTextField : UITextField!;
+    @IBOutlet weak var birthControl : UITextField!;//change to abortion
     @IBOutlet weak var gunControl: UITextField!;
     @IBOutlet weak var muslimBan: UITextField!;
     @IBOutlet weak var environment: UITextField!;
@@ -20,7 +20,7 @@ class QueryController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        pickerTextField.loadDropdownData(data: birthControlOptions)
+        birthControl.loadDropdownData(data: birthControlOptions)
         gunControl.loadDropdownData(data: gunControlOptions)
         muslimBan.loadDropdownData(data: muslimBanAndEnvironmentOptions);
         environment.loadDropdownData(data: muslimBanAndEnvironmentOptions);
@@ -32,14 +32,21 @@ class QueryController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
+        
+        let destination:QueryResultsTableViewController = segue.destination as! QueryResultsTableViewController
+        destination.birthControlChoice = birthControl.text;
+        destination.gunControlChoice = gunControl.text;
+        destination.muslimBanChoice = muslimBan.text;
+        destination.environmentChoice = environment.text;
+        
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }
