@@ -8,15 +8,17 @@
 
 import UIKit
 import Firebase
-class QueryResultsTableViewController: UITableViewController {
+class QueryResultsTableViewController: UITableViewController{
     var birthControlChoice: String? = nil;
     var gunControlChoice: String? = nil;
     var muslimBanChoice: String? = nil;
     var environmentChoice: String? = nil;
-    var ref: DatabaseReference!
+    var ref: DatabaseReference! //save data in list
     var results = [Dictionary<String, String>]()//will contain all the results from reading the database
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         /*
         print ("birthControlChoice: ", birthControlChoice!)
         print ("gunControlChoice: ", gunControlChoice!)
@@ -45,7 +47,7 @@ class QueryResultsTableViewController: UITableViewController {
          */
         
         let query = ref.observe(.childAdded, with: { snapshot in
-            let dict = snapshot.value as![String: String]
+            /*let dict = snapshot.value as![String: String]
             let bc = dict["abortion"] as! String
             let gc = dict["gunControl"] as! String
             let mb = dict["Muslim Ban"] as! String
@@ -56,7 +58,8 @@ class QueryResultsTableViewController: UITableViewController {
                 self.results.append(dict)
                 self.tableView.insertRows(at: [IndexPath(row: self.results.count - 1)], with: UITableViewRowAnimation.automatic)
                 
-            }
+            }*/
+            self.tableView.reloadData()
         })
     
     }
@@ -70,24 +73,25 @@ class QueryResultsTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return 2 //array.count
         
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
+       //let cell = tableVie
+        cell.textLabel?.text = "Hello" //array[i]
         // Configure the cell...
-
+        let i = indexPath.row
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.
