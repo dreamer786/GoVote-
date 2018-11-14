@@ -14,6 +14,7 @@ class QueryResultsTableViewController: UITableViewController {
     var muslimBanChoice: String? = nil;
     var environmentChoice: String? = nil;
     var ref: DatabaseReference!
+    var results = [Dictionary<String, String>]()//will contain all the results from reading the database
     override func viewDidLoad() {
         super.viewDidLoad()
         /*
@@ -42,7 +43,7 @@ class QueryResultsTableViewController: UITableViewController {
             
         }
          */
-        var results = [Dictionary<String, String>]()
+        
         let query = ref.observe(.childAdded, with: { snapshot in
             let dict = snapshot.value as![String: String]
             let bc = dict["abortion"] as! String
@@ -52,7 +53,8 @@ class QueryResultsTableViewController: UITableViewController {
             if bc == self.birthControlChoice && gc == self.gunControlChoice
             && mb == self.muslimBanChoice && ec == self.environmentChoice{
                 print ("found senator \(dict["firstName"])")
-                results.append(dict)
+                self.results.append(dict)
+                self.tableView.insertRows(at: [IndexPath(row: self.results.count - 1)], with: UITableViewRowAnimation.automatic)
                 
             }
         })
@@ -74,6 +76,7 @@ class QueryResultsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return 0
+        
     }
 
     /*
