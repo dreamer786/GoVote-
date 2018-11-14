@@ -7,26 +7,41 @@
 //
 
 import UIKit
-
+import Firebase
 class QueryResultsTableViewController: UITableViewController {
-    @IBAction func goBack(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
     var birthControlChoice: String? = nil;
     var gunControlChoice: String? = nil;
     var muslimBanChoice: String? = nil;
     var environmentChoice: String? = nil;
+    var ref: DatabaseReference!
     override func viewDidLoad() {
         super.viewDidLoad()
+        /*
         print ("birthControlChoice: ", birthControlChoice!)
         print ("gunControlChoice: ", gunControlChoice!)
         print ("muslimBanChoice: ", muslimBanChoice!)
         print ("environmentChoice: ", environmentChoice!)
+         */
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        ref = Database.database().reference()
+        
+        let query = ref.queryOrdered(byChild: "abortion").queryEqual(toValue: birthControlChoice)
+        query.observeSingleEvent(of: .value, with: {(snapshot) in
+            guard snapshot.value is NSNull else {
+                let senator = snapshot.value as! String
+                print ("\(senator) exists")
+                return
+            }
+            print("no data available")
+        }) {(error) in
+        print ("Failed to get snapshot", error.localizedDescription)
+            
+        }
+    
     }
 
     override func didReceiveMemoryWarning() {
