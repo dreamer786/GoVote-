@@ -15,7 +15,7 @@ class QueryController: UIViewController {
     @IBOutlet weak var environment: UITextField!;
     let birthControlOptions = ["pro-choice", "pro-life"];
     let gunControlOptions = ["pro", "against", "it's complicated"];
-    let muslimBanAndEnvironmentOptions = ["for", "against"];
+    let muslimBanAndEnvironmentOptions = ["pro", "against"];
 
     override func viewDidLoad() {
         super.viewDidLoad()

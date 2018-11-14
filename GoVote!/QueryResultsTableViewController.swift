@@ -28,12 +28,12 @@ class QueryResultsTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
         ref = Database.database().reference()
-        
+        /*
         let query = ref.queryOrdered(byChild: "abortion").queryEqual(toValue: birthControlChoice)
-        query.observeSingleEvent(of: .value, with: {(snapshot) in
+        query.observeSingleEvent(of: .childAdded, with: {(snapshot) in
             guard snapshot.value is NSNull else {
-                let senator = snapshot.value as! String
-                print ("\(senator) exists")
+                let senator = snapshot.value as! [String: Any]
+                print ("\(senator) exists, length is \(senator.count)")
                 return
             }
             print("no data available")
@@ -41,6 +41,21 @@ class QueryResultsTableViewController: UITableViewController {
         print ("Failed to get snapshot", error.localizedDescription)
             
         }
+         */
+        var results = [Dictionary<String, String>]()
+        let query = ref.observe(.childAdded, with: { snapshot in
+            let dict = snapshot.value as![String: String]
+            let bc = dict["abortion"] as! String
+            let gc = dict["gunControl"] as! String
+            let mb = dict["Muslim Ban"] as! String
+            let ec = dict["helpEnvironment"] as! String
+            if bc == self.birthControlChoice && gc == self.gunControlChoice
+            && mb == self.muslimBanChoice && ec == self.environmentChoice{
+                print ("found senator \(dict["firstName"])")
+                results.append(dict)
+                
+            }
+        })
     
     }
 
