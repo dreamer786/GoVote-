@@ -20,7 +20,7 @@
 		182EA3862198BD3D00A816B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */; };
 		18AED1F02199DBC7005FE10E /* QueryResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AED1EF2199DBC7005FE10E /* QueryResultsTableViewController.swift */; };
 		21BC1CEC3E4ABFE48C675181 /* Pods_GoVote_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */; };
-		3918D586219CEC1900CD5749 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3918D585219CEC1900CD5749 /* ProfileViewController.swift */; };
+		3918D588219CF18300CD5749 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3918D587219CF18300CD5749 /* ProfileViewController.swift */; };
 		3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926B7F72198A5F300FE5217 /* NavigationViewController.swift */; };
 		4E3253E06D629A503084BDFF /* Pods_GoVote_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3449C95C5FCA5881B0AEDD5 /* Pods_GoVote_Tests.framework */; };
 		D9777CB87524915FFF9C4E15 /* Pods_GoVote_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1100E2EAB2FF6D3FCEA9523E /* Pods_GoVote_.framework */; };
@@ -64,7 +64,7 @@
 		182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18AED1EF2199DBC7005FE10E /* QueryResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryResultsTableViewController.swift; sourceTree = "<group>"; };
 		312430A16CB626B7F0725EEB /* Pods-GoVote!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!Tests/Pods-GoVote!Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3918D585219CEC1900CD5749 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3918D587219CF18300CD5749 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3926B7F72198A5F300FE5217 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoVote_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA5CADAFC51351EEB4AE667 /* Pods-GoVote!UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!UITests/Pods-GoVote!UITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,9 +141,9 @@
 				182EA35021989A6F00A816B4 /* AppDelegate.swift */,
 				182EA35221989A6F00A816B4 /* ViewController.swift */,
 				182EA35421989A6F00A816B4 /* Main.storyboard */,
+				3918D587219CF18300CD5749 /* ProfileViewController.swift */,
 				182EA37E2198A53F00A816B4 /* QueryController.swift */,
 				18AED1EF2199DBC7005FE10E /* QueryResultsTableViewController.swift */,
-				3918D585219CEC1900CD5749 /* ProfileViewController.swift */,
 				182EA35721989A7100A816B4 /* Assets.xcassets */,
 				3926B7F72198A5F300FE5217 /* NavigationViewController.swift */,
 				182EA35921989A7100A816B4 /* LaunchScreen.storyboard */,
@@ -415,7 +415,7 @@
 				182EA37F2198A53F00A816B4 /* QueryController.swift in Sources */,
 				182EA3842198AF3600A816B4 /* MyPickerView.swift in Sources */,
 				182EA35121989A6F00A816B4 /* AppDelegate.swift in Sources */,
-				3918D586219CEC1900CD5749 /* ProfileViewController.swift in Sources */,
+				3918D588219CF18300CD5749 /* ProfileViewController.swift in Sources */,
 				18AED1F02199DBC7005FE10E /* QueryResultsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
