@@ -56,12 +56,12 @@ class QueryResultsTableViewController: UITableViewController{
             let dict = snapshot.value as![String: String]
             let bc: String? = dict["abortion"]
             let gc = dict["gunControl"] as! String
-            let mb = dict["Muslim Ban"] as! String
+            let mb = dict["muslimBan"] as! String
             let ec = dict["helpEnvironment"] as! String
             print(gc)
             if bc == self.birthControlChoice && gc == self.gunControlChoice
                 && mb == self.muslimBanChoice && ec == self.environmentChoice{
-                print ("found senator \(dict["firstName"]!) \(dict["last Name"]!)")
+                print ("found senator \(dict["firstName"]!) \(dict["lastName"]!)")
                 self.results.append(dict)
                 /*
                  self.tableView.insertRows(at: [IndexPath(row: self.results.count - 1)], with: UITableViewRowAnimation.automatic)
@@ -94,19 +94,12 @@ class QueryResultsTableViewController: UITableViewController{
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-       //let cell = tableVie
-        cell.textLabel?.text = "Hello" //array[i]
         let res:[String:String] = results[indexPath.row]
-        cell.textLabel?.text = "\(res["firstName"]!) \(res["last Name"]!)"
+        cell.textLabel?.text = "\(res["firstName"]!) \(res["lastName"]!) \(res["party"]!)"
         // Configure the cell...
-        //let i = indexPath.row
         return cell
     }
     
-    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        print("asd")
-        let i =
-    }*/
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //perform

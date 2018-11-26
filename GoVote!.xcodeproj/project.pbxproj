@@ -19,6 +19,8 @@
 		182EA3842198AF3600A816B4 /* MyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA3832198AF3600A816B4 /* MyPickerView.swift */; };
 		182EA3862198BD3D00A816B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */; };
 		18AED1F02199DBC7005FE10E /* QueryResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AED1EF2199DBC7005FE10E /* QueryResultsTableViewController.swift */; };
+		18CA8BF121AC522000D9B1F0 /* Collins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CA8BF021AC521F00D9B1F0 /* Collins.jpg */; };
+		18CA8BF321AC570400D9B1F0 /* King.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CA8BF221AC570400D9B1F0 /* King.jpg */; };
 		21BC1CEC3E4ABFE48C675181 /* Pods_GoVote_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */; };
 		3918D588219CF18300CD5749 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3918D587219CF18300CD5749 /* ProfileViewController.swift */; };
 		3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926B7F72198A5F300FE5217 /* NavigationViewController.swift */; };
@@ -63,6 +65,8 @@
 		182EA3832198AF3600A816B4 /* MyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerView.swift; sourceTree = "<group>"; };
 		182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18AED1EF2199DBC7005FE10E /* QueryResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryResultsTableViewController.swift; sourceTree = "<group>"; };
+		18CA8BF021AC521F00D9B1F0 /* Collins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Collins.jpg; sourceTree = "<group>"; };
+		18CA8BF221AC570400D9B1F0 /* King.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = King.jpg; sourceTree = "<group>"; };
 		312430A16CB626B7F0725EEB /* Pods-GoVote!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!Tests/Pods-GoVote!Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3918D587219CF18300CD5749 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3926B7F72198A5F300FE5217 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +142,7 @@
 		182EA34F21989A6F00A816B4 /* GoVote! */ = {
 			isa = PBXGroup;
 			children = (
+				18CA8BEF21AC51F400D9B1F0 /* Images */,
 				182EA35021989A6F00A816B4 /* AppDelegate.swift */,
 				182EA35221989A6F00A816B4 /* ViewController.swift */,
 				182EA35421989A6F00A816B4 /* Main.storyboard */,
@@ -179,6 +184,15 @@
 				182EA3812198AEAA00A816B4 /* UITextField.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18CA8BEF21AC51F400D9B1F0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				18CA8BF221AC570400D9B1F0 /* King.jpg */,
+				18CA8BF021AC521F00D9B1F0 /* Collins.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		66812A0EC573AEFD4CF7C9A9 /* Pods */ = {
@@ -302,7 +316,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CA8BF121AC522000D9B1F0 /* Collins.jpg in Resources */,
 				182EA35B21989A7100A816B4 /* LaunchScreen.storyboard in Resources */,
+				18CA8BF321AC570400D9B1F0 /* King.jpg in Resources */,
 				182EA3862198BD3D00A816B4 /* GoogleService-Info.plist in Resources */,
 				182EA35821989A7100A816B4 /* Assets.xcassets in Resources */,
 				182EA35621989A6F00A816B4 /* Main.storyboard in Resources */,
