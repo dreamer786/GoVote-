@@ -9,10 +9,11 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
+    var candidateInfo : [String:String]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print(candidateInfo!["firstName"])
         // Do any additional setup after loading the view.
     }
     

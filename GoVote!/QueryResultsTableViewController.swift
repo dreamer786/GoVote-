@@ -17,7 +17,8 @@ class QueryResultsTableViewController: UITableViewController{
     var results = [Dictionary<String, String>]()//will contain all the results from reading the database
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        ref = Database.database().reference()
+        retrieveSenators()
         
         /*
         print ("birthControlChoice: ", birthControlChoice!)
@@ -30,7 +31,7 @@ class QueryResultsTableViewController: UITableViewController{
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
-        ref = Database.database().reference()
+        
         /*
         let query = ref.queryOrdered(byChild: "abortion").queryEqual(toValue: birthControlChoice)
         query.observeSingleEvent(of: .childAdded, with: {(snapshot) in
@@ -46,24 +47,31 @@ class QueryResultsTableViewController: UITableViewController{
         }
          */
         
-        let query = ref.observe(.childAdded, with: { snapshot in
-            /*let dict = snapshot.value as![String: String]
-            let bc = dict["abortion"] as! String
+        
+    
+    }
+    func retrieveSenators(){
+        let _ = ref.observe(.childAdded, with: { snapshot in
+            //print("Hi")
+            let dict = snapshot.value as![String: String]
+            let bc: String? = dict["abortion"]
             let gc = dict["gunControl"] as! String
             let mb = dict["Muslim Ban"] as! String
             let ec = dict["helpEnvironment"] as! String
+            print(gc)
             if bc == self.birthControlChoice && gc == self.gunControlChoice
-            && mb == self.muslimBanChoice && ec == self.environmentChoice{
-                print ("found senator \(dict["firstName"])")
+                && mb == self.muslimBanChoice && ec == self.environmentChoice{
+                print ("found senator \(dict["firstName"]!) \(dict["last Name"]!)")
                 self.results.append(dict)
-                self.tableView.insertRows(at: [IndexPath(row: self.results.count - 1)], with: UITableViewRowAnimation.automatic)
-                
-            }*/
+                /*
+                 self.tableView.insertRows(at: [IndexPath(row: self.results.count - 1)], with: UITableViewRowAnimation.automatic)
+                 */
+            }
             self.tableView.reloadData()
-        })
-    
+        }) {(error) in
+            print("Failed to get snapshot", error.localizedDescription)
+        }
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -78,7 +86,8 @@ class QueryResultsTableViewController: UITableViewController{
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 2 //array.count
+        //return 2
+        return self.results.count
         
     }
 
@@ -87,12 +96,25 @@ class QueryResultsTableViewController: UITableViewController{
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
        //let cell = tableVie
         cell.textLabel?.text = "Hello" //array[i]
+        let res:[String:String] = results[indexPath.row]
+        cell.textLabel?.text = "\(res["firstName"]!) \(res["last Name"]!)"
         // Configure the cell...
-        let i = indexPath.row
+        //let i = indexPath.row
         return cell
     }
     
-
+    /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        print("asd")
+        let i =
+    }*/
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //perform
+        let vc: ProfileViewController = storyboard?.instantiateViewController(withIdentifier: "candidateView") as! ProfileViewController
+        vc.candidateInfo = results[indexPath.row]
+        show(vc, sender: nil)
+        
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
