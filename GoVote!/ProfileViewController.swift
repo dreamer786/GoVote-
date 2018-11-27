@@ -30,7 +30,7 @@ class ProfileViewController: UIViewController {
         senatorImg.image = myImage
         link.isEditable = false
         link.dataDetectorTypes = .link
-        link.text = "official website: \(String(describing: candidateInfo!["link"]))"
+        link.text = candidateInfo!["link"]
     }
     /*
     // MARK: - Navigation
