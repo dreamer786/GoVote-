@@ -55,17 +55,14 @@ class QueryResultsTableViewController: UITableViewController{
             //print("Hi")
             let dict = snapshot.value as![String: String]
             let bc: String? = dict["abortion"]
-            let gc = dict["gunControl"] as! String
-            let mb = dict["muslimBan"] as! String
-            let ec = dict["helpEnvironment"] as! String
-            print(gc)
+            let gc: String? = dict["gunControl"]
+            let mb: String? = dict["muslimBan"]
+            let ec: String? = dict["helpEnvironment"]
+            //print(gc)
             if bc == self.birthControlChoice && gc == self.gunControlChoice
                 && mb == self.muslimBanChoice && ec == self.environmentChoice{
-                print ("found senator \(dict["firstName"]!) \(dict["lastName"]!)")
+                //print ("found senator \(dict["firstName"]!) \(dict["lastName"]!)")
                 self.results.append(dict)
-                /*
-                 self.tableView.insertRows(at: [IndexPath(row: self.results.count - 1)], with: UITableViewRowAnimation.automatic)
-                 */
             }
             self.tableView.reloadData()
         }) {(error) in
@@ -86,21 +83,20 @@ class QueryResultsTableViewController: UITableViewController{
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        //return 2
         return self.results.count
         
     }
 
-    
+    //loads the table
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let res:[String:String] = results[indexPath.row]
-        cell.textLabel?.text = "\(res["firstName"]!) \(res["lastName"]!) \(res["party"]!)"
+        cell.textLabel?.text = "\(res["firstName"]!) \(res["lastName"]!) \(res["state"]!)"
         // Configure the cell...
         return cell
     }
     
-    
+    //goes to profile view upon user selecting a senator
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //perform
         let vc: ProfileViewController = storyboard?.instantiateViewController(withIdentifier: "candidateView") as! ProfileViewController
