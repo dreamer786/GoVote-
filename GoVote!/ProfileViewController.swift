@@ -17,7 +17,7 @@ class ProfileViewController: UIViewController {
     @IBOutlet weak var link: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(candidateInfo!["firstName"]!)
+        //print(candidateInfo!["firstName"]!)
         // Do any additional setup after loading the view.
         name.text = candidateInfo!["firstName"]! + " " + candidateInfo!["lastName"]!
         if (candidateInfo!["party"]! != "R"){
@@ -31,6 +31,7 @@ class ProfileViewController: UIViewController {
         link.isEditable = false
         link.dataDetectorTypes = .link
         link.text = candidateInfo!["link"]
+        link.font = UIFont(name: (link.font?.fontName)!, size: 18)
     }
     /*
     // MARK: - Navigation

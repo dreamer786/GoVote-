@@ -19,6 +19,20 @@
 		182EA3842198AF3600A816B4 /* MyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA3832198AF3600A816B4 /* MyPickerView.swift */; };
 		182EA3862198BD3D00A816B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */; };
 		18AED1F02199DBC7005FE10E /* QueryResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AED1EF2199DBC7005FE10E /* QueryResultsTableViewController.swift */; };
+		18BDA7D421AE0D92008F2C41 /* Hassan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7D321AE0D92008F2C41 /* Hassan.jpg */; };
+		18BDA7D821AE0E46008F2C41 /* Sanders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7D521AE0E45008F2C41 /* Sanders.jpg */; };
+		18BDA7D921AE0E46008F2C41 /* Shaheen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7D621AE0E45008F2C41 /* Shaheen.jpg */; };
+		18BDA7DA21AE0E46008F2C41 /* Leahy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7D721AE0E46008F2C41 /* Leahy.jpg */; };
+		18BDA7DF21AE101F008F2C41 /* Booker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7DB21AE101E008F2C41 /* Booker.jpg */; };
+		18BDA7E021AE101F008F2C41 /* Markey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7DC21AE101F008F2C41 /* Markey.jpg */; };
+		18BDA7E121AE101F008F2C41 /* Blumenthal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7DD21AE101F008F2C41 /* Blumenthal.jpg */; };
+		18BDA7E221AE101F008F2C41 /* Schumer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7DE21AE101F008F2C41 /* Schumer.jpg */; };
+		18BDA7E521AE102F008F2C41 /* Whitehouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7E321AE102F008F2C41 /* Whitehouse.jpg */; };
+		18BDA7E621AE102F008F2C41 /* Warren.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7E421AE102F008F2C41 /* Warren.jpg */; };
+		18BDA7EA21AE1041008F2C41 /* Murphy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7E721AE1041008F2C41 /* Murphy.jpg */; };
+		18BDA7EB21AE1041008F2C41 /* Gillibrand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7E821AE1041008F2C41 /* Gillibrand.jpg */; };
+		18BDA7EC21AE1041008F2C41 /* Reed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7E921AE1041008F2C41 /* Reed.jpg */; };
+		18BDA7EE21AE1060008F2C41 /* Menendez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7ED21AE1060008F2C41 /* Menendez.jpg */; };
 		18CA8BF121AC522000D9B1F0 /* Collins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CA8BF021AC521F00D9B1F0 /* Collins.jpg */; };
 		18CA8BF321AC570400D9B1F0 /* King.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CA8BF221AC570400D9B1F0 /* King.jpg */; };
 		21BC1CEC3E4ABFE48C675181 /* Pods_GoVote_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */; };
@@ -65,6 +79,20 @@
 		182EA3832198AF3600A816B4 /* MyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerView.swift; sourceTree = "<group>"; };
 		182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18AED1EF2199DBC7005FE10E /* QueryResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryResultsTableViewController.swift; sourceTree = "<group>"; };
+		18BDA7D321AE0D92008F2C41 /* Hassan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hassan.jpg; sourceTree = "<group>"; };
+		18BDA7D521AE0E45008F2C41 /* Sanders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sanders.jpg; sourceTree = "<group>"; };
+		18BDA7D621AE0E45008F2C41 /* Shaheen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shaheen.jpg; sourceTree = "<group>"; };
+		18BDA7D721AE0E46008F2C41 /* Leahy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Leahy.jpg; sourceTree = "<group>"; };
+		18BDA7DB21AE101E008F2C41 /* Booker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Booker.jpg; sourceTree = "<group>"; };
+		18BDA7DC21AE101F008F2C41 /* Markey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Markey.jpg; sourceTree = "<group>"; };
+		18BDA7DD21AE101F008F2C41 /* Blumenthal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blumenthal.jpg; sourceTree = "<group>"; };
+		18BDA7DE21AE101F008F2C41 /* Schumer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Schumer.jpg; sourceTree = "<group>"; };
+		18BDA7E321AE102F008F2C41 /* Whitehouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Whitehouse.jpg; sourceTree = "<group>"; };
+		18BDA7E421AE102F008F2C41 /* Warren.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Warren.jpg; sourceTree = "<group>"; };
+		18BDA7E721AE1041008F2C41 /* Murphy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Murphy.jpg; sourceTree = "<group>"; };
+		18BDA7E821AE1041008F2C41 /* Gillibrand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gillibrand.jpg; sourceTree = "<group>"; };
+		18BDA7E921AE1041008F2C41 /* Reed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Reed.jpg; sourceTree = "<group>"; };
+		18BDA7ED21AE1060008F2C41 /* Menendez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Menendez.jpg; sourceTree = "<group>"; };
 		18CA8BF021AC521F00D9B1F0 /* Collins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Collins.jpg; sourceTree = "<group>"; };
 		18CA8BF221AC570400D9B1F0 /* King.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = King.jpg; sourceTree = "<group>"; };
 		312430A16CB626B7F0725EEB /* Pods-GoVote!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!Tests/Pods-GoVote!Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,6 +217,20 @@
 		18CA8BEF21AC51F400D9B1F0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				18BDA7ED21AE1060008F2C41 /* Menendez.jpg */,
+				18BDA7E821AE1041008F2C41 /* Gillibrand.jpg */,
+				18BDA7E721AE1041008F2C41 /* Murphy.jpg */,
+				18BDA7E921AE1041008F2C41 /* Reed.jpg */,
+				18BDA7E421AE102F008F2C41 /* Warren.jpg */,
+				18BDA7E321AE102F008F2C41 /* Whitehouse.jpg */,
+				18BDA7DD21AE101F008F2C41 /* Blumenthal.jpg */,
+				18BDA7DB21AE101E008F2C41 /* Booker.jpg */,
+				18BDA7DC21AE101F008F2C41 /* Markey.jpg */,
+				18BDA7DE21AE101F008F2C41 /* Schumer.jpg */,
+				18BDA7D721AE0E46008F2C41 /* Leahy.jpg */,
+				18BDA7D521AE0E45008F2C41 /* Sanders.jpg */,
+				18BDA7D621AE0E45008F2C41 /* Shaheen.jpg */,
+				18BDA7D321AE0D92008F2C41 /* Hassan.jpg */,
 				18CA8BF221AC570400D9B1F0 /* King.jpg */,
 				18CA8BF021AC521F00D9B1F0 /* Collins.jpg */,
 			);
@@ -317,9 +359,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				18CA8BF121AC522000D9B1F0 /* Collins.jpg in Resources */,
+				18BDA7EB21AE1041008F2C41 /* Gillibrand.jpg in Resources */,
+				18BDA7DF21AE101F008F2C41 /* Booker.jpg in Resources */,
 				182EA35B21989A7100A816B4 /* LaunchScreen.storyboard in Resources */,
+				18BDA7D921AE0E46008F2C41 /* Shaheen.jpg in Resources */,
+				18BDA7EC21AE1041008F2C41 /* Reed.jpg in Resources */,
+				18BDA7E521AE102F008F2C41 /* Whitehouse.jpg in Resources */,
+				18BDA7EA21AE1041008F2C41 /* Murphy.jpg in Resources */,
+				18BDA7E121AE101F008F2C41 /* Blumenthal.jpg in Resources */,
+				18BDA7D821AE0E46008F2C41 /* Sanders.jpg in Resources */,
+				18BDA7D421AE0D92008F2C41 /* Hassan.jpg in Resources */,
+				18BDA7E621AE102F008F2C41 /* Warren.jpg in Resources */,
+				18BDA7E021AE101F008F2C41 /* Markey.jpg in Resources */,
+				18BDA7EE21AE1060008F2C41 /* Menendez.jpg in Resources */,
 				18CA8BF321AC570400D9B1F0 /* King.jpg in Resources */,
+				18BDA7E221AE101F008F2C41 /* Schumer.jpg in Resources */,
 				182EA3862198BD3D00A816B4 /* GoogleService-Info.plist in Resources */,
+				18BDA7DA21AE0E46008F2C41 /* Leahy.jpg in Resources */,
 				182EA35821989A7100A816B4 /* Assets.xcassets in Resources */,
 				182EA35621989A6F00A816B4 /* Main.storyboard in Resources */,
 			);
