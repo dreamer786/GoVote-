@@ -8,7 +8,7 @@
 
 import Foundation
 import UIKit
-class MyPickerView: UIPickerView, UIPickerViewDataSource, UIPickerViewDelegate {
+class MyPickerView: UIPickerView, UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate {
     var pickerData : [String]!
     var pickerTextField : UITextField!
     
@@ -50,8 +50,14 @@ class MyPickerView: UIPickerView, UIPickerViewDataSource, UIPickerViewDelegate {
     // When user selects an option, this function will set the text of the text field to reflect the selected option.
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         pickerTextField.text = pickerData[row]
-    }
+        //pickerTextField.isHidden = true
+        self.endEditing(true)
 
+    }
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        pickerTextField.isHidden = false
+        return false
+    }
    
     
    

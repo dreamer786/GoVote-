@@ -13,9 +13,11 @@ class QueryController: UIViewController {
     @IBOutlet weak var gunControl: UITextField!;
     @IBOutlet weak var muslimBan: UITextField!;
     @IBOutlet weak var environment: UITextField!;
+    @IBOutlet weak var weedLegalization: UITextField!
     let birthControlOptions = ["Pro-choice", "Pro-life"];
     let gunControlOptions = ["Support", "Against", "Mixed"];
     let muslimBanAndEnvironmentOptions = ["Support", "Against", "Mixed"];
+    let weedLegalizationOptions = ["Medical only", "Recreational and medical", "Against"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +26,7 @@ class QueryController: UIViewController {
         gunControl.loadDropdownData(data: gunControlOptions)
         muslimBan.loadDropdownData(data: muslimBanAndEnvironmentOptions);
         environment.loadDropdownData(data: muslimBanAndEnvironmentOptions);
+        weedLegalization.loadDropdownData(data: weedLegalizationOptions)
     }
 
     override func didReceiveMemoryWarning() {
