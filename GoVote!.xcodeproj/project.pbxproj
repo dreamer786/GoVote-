@@ -38,6 +38,22 @@
 		21BC1CEC3E4ABFE48C675181 /* Pods_GoVote_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */; };
 		3918D588219CF18300CD5749 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3918D587219CF18300CD5749 /* ProfileViewController.swift */; };
 		3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926B7F72198A5F300FE5217 /* NavigationViewController.swift */; };
+		39A5DE7221AE2FC300B9D90F /* Cardin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6221AE2FC100B9D90F /* Cardin.jpg */; };
+		39A5DE7321AE2FC300B9D90F /* Toomey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6321AE2FC100B9D90F /* Toomey.jpg */; };
+		39A5DE7421AE2FC300B9D90F /* Scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6421AE2FC100B9D90F /* Scott.jpg */; };
+		39A5DE7521AE2FC300B9D90F /* Perdue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6521AE2FC100B9D90F /* Perdue.jpg */; };
+		39A5DE7621AE2FC300B9D90F /* Rubio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6621AE2FC100B9D90F /* Rubio.jpg */; };
+		39A5DE7721AE2FC300B9D90F /* Kaine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6721AE2FC100B9D90F /* Kaine.jpg */; };
+		39A5DE7821AE2FC300B9D90F /* Carper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6821AE2FC100B9D90F /* Carper.jpg */; };
+		39A5DE7921AE2FC300B9D90F /* Burr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6921AE2FC200B9D90F /* Burr.jpg */; };
+		39A5DE7A21AE2FC300B9D90F /* Tillis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6A21AE2FC200B9D90F /* Tillis.jpg */; };
+		39A5DE7B21AE2FC300B9D90F /* Nelson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6B21AE2FC200B9D90F /* Nelson.jpg */; };
+		39A5DE7C21AE2FC300B9D90F /* Van Hollen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6C21AE2FC200B9D90F /* Van Hollen.jpg */; };
+		39A5DE7D21AE2FC300B9D90F /* Casey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6D21AE2FC200B9D90F /* Casey.jpg */; };
+		39A5DE7E21AE2FC300B9D90F /* Warner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6E21AE2FC200B9D90F /* Warner.jpg */; };
+		39A5DE7F21AE2FC300B9D90F /* Coons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6F21AE2FC200B9D90F /* Coons.jpg */; };
+		39A5DE8021AE2FC300B9D90F /* Isakson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE7021AE2FC300B9D90F /* Isakson.jpg */; };
+		39A5DE8121AE2FC300B9D90F /* Graham.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE7121AE2FC300B9D90F /* Graham.jpg */; };
 		4E3253E06D629A503084BDFF /* Pods_GoVote_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3449C95C5FCA5881B0AEDD5 /* Pods_GoVote_Tests.framework */; };
 		D9777CB87524915FFF9C4E15 /* Pods_GoVote_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1100E2EAB2FF6D3FCEA9523E /* Pods_GoVote_.framework */; };
 /* End PBXBuildFile section */
@@ -98,6 +114,22 @@
 		312430A16CB626B7F0725EEB /* Pods-GoVote!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!Tests/Pods-GoVote!Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3918D587219CF18300CD5749 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3926B7F72198A5F300FE5217 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		39A5DE6221AE2FC100B9D90F /* Cardin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cardin.jpg; sourceTree = "<group>"; };
+		39A5DE6321AE2FC100B9D90F /* Toomey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Toomey.jpg; sourceTree = "<group>"; };
+		39A5DE6421AE2FC100B9D90F /* Scott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scott.jpg; sourceTree = "<group>"; };
+		39A5DE6521AE2FC100B9D90F /* Perdue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Perdue.jpg; sourceTree = "<group>"; };
+		39A5DE6621AE2FC100B9D90F /* Rubio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rubio.jpg; sourceTree = "<group>"; };
+		39A5DE6721AE2FC100B9D90F /* Kaine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kaine.jpg; sourceTree = "<group>"; };
+		39A5DE6821AE2FC100B9D90F /* Carper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carper.jpg; sourceTree = "<group>"; };
+		39A5DE6921AE2FC200B9D90F /* Burr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Burr.jpg; sourceTree = "<group>"; };
+		39A5DE6A21AE2FC200B9D90F /* Tillis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tillis.jpg; sourceTree = "<group>"; };
+		39A5DE6B21AE2FC200B9D90F /* Nelson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nelson.jpg; sourceTree = "<group>"; };
+		39A5DE6C21AE2FC200B9D90F /* Van Hollen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Van Hollen.jpg"; sourceTree = "<group>"; };
+		39A5DE6D21AE2FC200B9D90F /* Casey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Casey.jpg; sourceTree = "<group>"; };
+		39A5DE6E21AE2FC200B9D90F /* Warner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Warner.jpg; sourceTree = "<group>"; };
+		39A5DE6F21AE2FC200B9D90F /* Coons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Coons.jpg; sourceTree = "<group>"; };
+		39A5DE7021AE2FC300B9D90F /* Isakson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Isakson.jpg; sourceTree = "<group>"; };
+		39A5DE7121AE2FC300B9D90F /* Graham.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Graham.jpg; sourceTree = "<group>"; };
 		40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoVote_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA5CADAFC51351EEB4AE667 /* Pods-GoVote!UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!UITests/Pods-GoVote!UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9FB9F03281289D26110FDB20 /* Pods-GoVote!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!/Pods-GoVote!.debug.xcconfig"; sourceTree = "<group>"; };
@@ -217,6 +249,22 @@
 		18CA8BEF21AC51F400D9B1F0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				39A5DE6921AE2FC200B9D90F /* Burr.jpg */,
+				39A5DE6221AE2FC100B9D90F /* Cardin.jpg */,
+				39A5DE6821AE2FC100B9D90F /* Carper.jpg */,
+				39A5DE6D21AE2FC200B9D90F /* Casey.jpg */,
+				39A5DE6F21AE2FC200B9D90F /* Coons.jpg */,
+				39A5DE7121AE2FC300B9D90F /* Graham.jpg */,
+				39A5DE7021AE2FC300B9D90F /* Isakson.jpg */,
+				39A5DE6721AE2FC100B9D90F /* Kaine.jpg */,
+				39A5DE6B21AE2FC200B9D90F /* Nelson.jpg */,
+				39A5DE6521AE2FC100B9D90F /* Perdue.jpg */,
+				39A5DE6621AE2FC100B9D90F /* Rubio.jpg */,
+				39A5DE6421AE2FC100B9D90F /* Scott.jpg */,
+				39A5DE6A21AE2FC200B9D90F /* Tillis.jpg */,
+				39A5DE6321AE2FC100B9D90F /* Toomey.jpg */,
+				39A5DE6C21AE2FC200B9D90F /* Van Hollen.jpg */,
+				39A5DE6E21AE2FC200B9D90F /* Warner.jpg */,
 				18BDA7ED21AE1060008F2C41 /* Menendez.jpg */,
 				18BDA7E821AE1041008F2C41 /* Gillibrand.jpg */,
 				18BDA7E721AE1041008F2C41 /* Murphy.jpg */,
@@ -358,25 +406,41 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39A5DE7321AE2FC300B9D90F /* Toomey.jpg in Resources */,
 				18CA8BF121AC522000D9B1F0 /* Collins.jpg in Resources */,
+				39A5DE7421AE2FC300B9D90F /* Scott.jpg in Resources */,
+				39A5DE7C21AE2FC300B9D90F /* Van Hollen.jpg in Resources */,
 				18BDA7EB21AE1041008F2C41 /* Gillibrand.jpg in Resources */,
 				18BDA7DF21AE101F008F2C41 /* Booker.jpg in Resources */,
 				182EA35B21989A7100A816B4 /* LaunchScreen.storyboard in Resources */,
+				39A5DE7521AE2FC300B9D90F /* Perdue.jpg in Resources */,
+				39A5DE7A21AE2FC300B9D90F /* Tillis.jpg in Resources */,
+				39A5DE8121AE2FC300B9D90F /* Graham.jpg in Resources */,
 				18BDA7D921AE0E46008F2C41 /* Shaheen.jpg in Resources */,
+				39A5DE7221AE2FC300B9D90F /* Cardin.jpg in Resources */,
+				39A5DE7E21AE2FC300B9D90F /* Warner.jpg in Resources */,
 				18BDA7EC21AE1041008F2C41 /* Reed.jpg in Resources */,
 				18BDA7E521AE102F008F2C41 /* Whitehouse.jpg in Resources */,
+				39A5DE7D21AE2FC300B9D90F /* Casey.jpg in Resources */,
 				18BDA7EA21AE1041008F2C41 /* Murphy.jpg in Resources */,
 				18BDA7E121AE101F008F2C41 /* Blumenthal.jpg in Resources */,
+				39A5DE8021AE2FC300B9D90F /* Isakson.jpg in Resources */,
+				39A5DE7B21AE2FC300B9D90F /* Nelson.jpg in Resources */,
+				39A5DE7F21AE2FC300B9D90F /* Coons.jpg in Resources */,
 				18BDA7D821AE0E46008F2C41 /* Sanders.jpg in Resources */,
 				18BDA7D421AE0D92008F2C41 /* Hassan.jpg in Resources */,
 				18BDA7E621AE102F008F2C41 /* Warren.jpg in Resources */,
+				39A5DE7721AE2FC300B9D90F /* Kaine.jpg in Resources */,
 				18BDA7E021AE101F008F2C41 /* Markey.jpg in Resources */,
 				18BDA7EE21AE1060008F2C41 /* Menendez.jpg in Resources */,
 				18CA8BF321AC570400D9B1F0 /* King.jpg in Resources */,
 				18BDA7E221AE101F008F2C41 /* Schumer.jpg in Resources */,
+				39A5DE7821AE2FC300B9D90F /* Carper.jpg in Resources */,
 				182EA3862198BD3D00A816B4 /* GoogleService-Info.plist in Resources */,
 				18BDA7DA21AE0E46008F2C41 /* Leahy.jpg in Resources */,
+				39A5DE7621AE2FC300B9D90F /* Rubio.jpg in Resources */,
 				182EA35821989A7100A816B4 /* Assets.xcassets in Resources */,
+				39A5DE7921AE2FC300B9D90F /* Burr.jpg in Resources */,
 				182EA35621989A6F00A816B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
