@@ -51,13 +51,15 @@ class MyPickerView: UIPickerView, UIPickerViewDataSource, UIPickerViewDelegate, 
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         pickerTextField.text = pickerData[row]
         //pickerTextField.isHidden = true
-        self.endEditing(true)
+        //self.endEditing(true)
 
     }
+    /*
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         pickerTextField.isHidden = false
         return false
     }
+     */
    
     
    

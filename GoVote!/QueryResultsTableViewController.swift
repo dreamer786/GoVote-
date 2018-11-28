@@ -13,13 +13,14 @@ class QueryResultsTableViewController: UITableViewController{
     var gunControlChoice: String? = nil;
     var muslimBanChoice: String? = nil;
     var environmentChoice: String? = nil;
+    var weedLegalizationChoice: String? = nil;
     var ref: DatabaseReference! //save data in list
     var results = [Dictionary<String, String>]()//will contain all the results from reading the database
     override func viewDidLoad() {
         super.viewDidLoad()
         ref = Database.database().reference()
         retrieveSenators()
-        
+        //print ("weed legalizatio choice: ", )
         /*
         print ("birthControlChoice: ", birthControlChoice!)
         print ("gunControlChoice: ", gunControlChoice!)
@@ -58,9 +59,10 @@ class QueryResultsTableViewController: UITableViewController{
             let gc: String? = dict["gunControl"]
             let mb: String? = dict["muslimBan"]
             let ec: String? = dict["helpEnvironment"]
+            let wc: String? = dict["weedLegalization"]
             //print(gc)
             if bc == self.birthControlChoice && gc == self.gunControlChoice
-                && mb == self.muslimBanChoice && ec == self.environmentChoice{
+                && mb == self.muslimBanChoice && ec == self.environmentChoice && wc == self.weedLegalizationChoice{
                 //print ("found senator \(dict["firstName"]!) \(dict["lastName"]!)")
                 self.results.append(dict)
             }
@@ -91,7 +93,7 @@ class QueryResultsTableViewController: UITableViewController{
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         let res:[String:String] = results[indexPath.row]
-        cell.textLabel?.text = "\(res["firstName"]!) \(res["lastName"]!) \(res["state"]!)"
+        cell.textLabel?.text = "\(res["firstName"]!) \(res["lastName"]!), \(res["state"]!)"
         // Configure the cell...
         return cell
     }

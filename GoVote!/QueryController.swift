@@ -41,14 +41,16 @@ class QueryController: UIViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
-        
         let destination:QueryResultsTableViewController = segue.destination as! QueryResultsTableViewController
+        
+        // Pass the selected object to the new view controller.
         destination.birthControlChoice = birthControl.text;
         destination.gunControlChoice = gunControl.text;
         destination.muslimBanChoice = muslimBan.text;
         destination.environmentChoice = environment.text;
+        destination.weedLegalizationChoice = weedLegalization.text;
         
-        // Pass the selected object to the new view controller.
+        
     }
     
 
