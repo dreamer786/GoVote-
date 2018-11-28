@@ -83,7 +83,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Find general info"/>
                                 <connections>
-                                    <segue destination="GIo-Fc-sDH" kind="presentation" id="crA-mC-orN"/>
+                                    <segue destination="GIo-Fc-sDH" kind="show" id="q6m-5W-5qs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -287,7 +287,7 @@
                                 <rect key="frame" x="0.0" y="8" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="Au6-27-CKX"/>
+                                    <navigationItem id="Au6-27-CKX"/>
                                 </items>
                             </navigationBar>
                         </subviews>
