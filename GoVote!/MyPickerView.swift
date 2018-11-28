@@ -56,3 +56,12 @@ class MyPickerView: UIPickerView, UIPickerViewDataSource, UIPickerViewDelegate {
     
    
 }
+extension UIImage {
+    
+    func resize(targetSize: CGSize) -> UIImage {
+        return UIGraphicsImageRenderer(size:targetSize).image { _ in
+            self.draw(in: CGRect(origin: .zero, size: targetSize))
+        }
+    }
+    
+}
