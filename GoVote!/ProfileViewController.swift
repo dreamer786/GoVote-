@@ -13,8 +13,13 @@ class ProfileViewController: UIViewController {
 
     @IBOutlet weak var party: UILabel!
     @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var state: UILabel!
     @IBOutlet weak var senatorImg: UIImageView!
+    @IBOutlet weak var abortion: UILabel!
+    @IBOutlet weak var gunControl: UILabel!
     @IBOutlet weak var link: UITextView!
+    @IBOutlet weak var muslimBan: UILabel!
+    @IBOutlet weak var weedLegalization: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         //print(candidateInfo!["firstName"]!)
@@ -33,6 +38,12 @@ class ProfileViewController: UIViewController {
         link.dataDetectorTypes = .link
         link.text = candidateInfo!["link"]
         link.font = UIFont(name: (link.font?.fontName)!, size: 18)
+        abortion.text = "Abortion: \(candidateInfo!["abortion"]!))"
+        gunControl.text = "Gun Control: \(candidateInfo!["gunControl"]!)"
+        muslimBan.text = "Muslim Ban: \(candidateInfo!["muslimBan"]!)"
+        weedLegalization.text = "Weed Legalization: \(candidateInfo!["weedLegalization"]!)"
+        state.text = "State: \(candidateInfo!["state"]!)"
+        
     }
     /*
     // MARK: - Navigation
