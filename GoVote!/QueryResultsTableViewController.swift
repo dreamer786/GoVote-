@@ -20,7 +20,6 @@ class QueryResultsTableViewController: UITableViewController{
         super.viewDidLoad()
         ref = Database.database().reference()
         retrieveSenators()
-        //print ("weed legalizatio choice: ", )
         /*
         print ("birthControlChoice: ", birthControlChoice!)
         print ("gunControlChoice: ", gunControlChoice!)
