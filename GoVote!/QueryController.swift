@@ -21,6 +21,11 @@ class QueryController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        /*let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: Selector(("dismissPicker")))
+        view.addGestureRecognizer(tap)
+        view.isUserInteractionEnabled = true
+        self.view.addSubview(view)*/
+        self.hideKeyboard()
         // Do any additional setup after loading the view.
         birthControl.loadDropdownData(data: birthControlOptions)
         gunControl.loadDropdownData(data: gunControlOptions)
@@ -33,6 +38,7 @@ class QueryController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
     
@@ -54,4 +60,22 @@ class QueryController: UIViewController {
     }
     
 
+}
+
+extension UIViewController
+{
+    func hideKeyboard()
+    {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(
+            target: self,
+            action: #selector(UIViewController.dismissKeyboard))
+        
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard()
+    {
+        view.endEditing(true)
+    }
 }
