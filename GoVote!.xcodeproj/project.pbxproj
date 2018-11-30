@@ -18,6 +18,8 @@
 		182EA3822198AEAA00A816B4 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA3812198AEAA00A816B4 /* UITextField.swift */; };
 		182EA3842198AF3600A816B4 /* MyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA3832198AF3600A816B4 /* MyPickerView.swift */; };
 		182EA3862198BD3D00A816B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */; };
+		188353AE21B0BC1200033561 /* GeneralInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188353AD21B0BC1200033561 /* GeneralInfoViewController.swift */; };
+		188353B021B0C8C400033561 /* VoterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188353AF21B0C8C400033561 /* VoterViewController.swift */; };
 		18AED1F02199DBC7005FE10E /* QueryResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AED1EF2199DBC7005FE10E /* QueryResultsTableViewController.swift */; };
 		18BDA7D421AE0D92008F2C41 /* Hassan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7D321AE0D92008F2C41 /* Hassan.jpg */; };
 		18BDA7D821AE0E46008F2C41 /* Sanders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BDA7D521AE0E45008F2C41 /* Sanders.jpg */; };
@@ -95,6 +97,8 @@
 		182EA3812198AEAA00A816B4 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
 		182EA3832198AF3600A816B4 /* MyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPickerView.swift; sourceTree = "<group>"; };
 		182EA3852198BD3C00A816B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		188353AD21B0BC1200033561 /* GeneralInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoViewController.swift; sourceTree = "<group>"; };
+		188353AF21B0C8C400033561 /* VoterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoterViewController.swift; sourceTree = "<group>"; };
 		18AED1EF2199DBC7005FE10E /* QueryResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryResultsTableViewController.swift; sourceTree = "<group>"; };
 		18BDA7D321AE0D92008F2C41 /* Hassan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hassan.jpg; sourceTree = "<group>"; };
 		18BDA7D521AE0E45008F2C41 /* Sanders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sanders.jpg; sourceTree = "<group>"; };
@@ -208,7 +212,9 @@
 				182EA35021989A6F00A816B4 /* AppDelegate.swift */,
 				182EA35221989A6F00A816B4 /* ViewController.swift */,
 				182EA35421989A6F00A816B4 /* Main.storyboard */,
+				188353AF21B0C8C400033561 /* VoterViewController.swift */,
 				3918D587219CF18300CD5749 /* ProfileViewController.swift */,
+				188353AD21B0BC1200033561 /* GeneralInfoViewController.swift */,
 				182EA37E2198A53F00A816B4 /* QueryController.swift */,
 				18AED1EF2199DBC7005FE10E /* QueryResultsTableViewController.swift */,
 				182EA35721989A7100A816B4 /* Assets.xcassets */,
@@ -550,6 +556,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */,
+				188353B021B0C8C400033561 /* VoterViewController.swift in Sources */,
+				188353AE21B0BC1200033561 /* GeneralInfoViewController.swift in Sources */,
 				182EA3822198AEAA00A816B4 /* UITextField.swift in Sources */,
 				182EA35321989A6F00A816B4 /* ViewController.swift in Sources */,
 				182EA37F2198A53F00A816B4 /* QueryController.swift in Sources */,
