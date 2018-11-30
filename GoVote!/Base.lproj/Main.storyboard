@@ -419,13 +419,13 @@
                                     <navigationItem id="Au6-27-CKX"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="senator elections: TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wef-Ov-epw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="senator elections: TBD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wef-Ov-epw">
                                 <rect key="frame" x="41" y="200" width="174" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jf-OH-hAg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jf-OH-hAg">
                                 <rect key="frame" x="41" y="238" width="295" height="62"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="Fsi-ta-mcI"/>
@@ -436,17 +436,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9V-9P-o12">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9V-9P-o12">
                                 <rect key="frame" x="41" y="360" width="108" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register to vote"/>
                                 <connections>
                                     <action selector="registerToVote:" destination="GIo-Fc-sDH" eventType="touchUpInside" id="jnx-rV-fL0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awH-O9-Eoq">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awH-O9-Eoq">
                                 <rect key="frame" x="41" y="453" width="120" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Election reminder"/>
                                 <connections>
                                     <action selector="electionReminder:" destination="GIo-Fc-sDH" eventType="touchUpInside" id="d4K-KF-NAK"/>
@@ -456,13 +454,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="9jf-OH-hAg" firstAttribute="top" secondItem="Wef-Ov-epw" secondAttribute="bottom" constant="17" id="0eG-4S-Ncg"/>
+                            <constraint firstItem="9jf-OH-hAg" firstAttribute="leading" secondItem="awH-O9-Eoq" secondAttribute="leading" id="1Wv-mE-67P"/>
                             <constraint firstItem="9jf-OH-hAg" firstAttribute="leading" secondItem="5fh-Sg-8D7" secondAttribute="leading" constant="41" id="6NG-zo-Gez"/>
                             <constraint firstItem="9sc-O8-qaP" firstAttribute="top" secondItem="cC7-Fp-wya" secondAttribute="topMargin" constant="-56" id="6tO-yB-Z2H"/>
+                            <constraint firstItem="Wef-Ov-epw" firstAttribute="top" secondItem="Nni-rT-2mg" secondAttribute="bottom" constant="58" id="Lgc-je-1Kh"/>
+                            <constraint firstItem="E9V-9P-o12" firstAttribute="top" secondItem="9jf-OH-hAg" secondAttribute="bottom" constant="60" id="Nzt-im-8me"/>
                             <constraint firstItem="9jf-OH-hAg" firstAttribute="leading" secondItem="Wef-Ov-epw" secondAttribute="leading" id="S1I-if-bSW"/>
+                            <constraint firstItem="9jf-OH-hAg" firstAttribute="leading" secondItem="E9V-9P-o12" secondAttribute="leading" id="Wrv-9c-6N4"/>
                             <constraint firstItem="Nni-rT-2mg" firstAttribute="top" secondItem="9sc-O8-qaP" secondAttribute="bottom" constant="69" id="YQb-au-0QA"/>
                             <constraint firstItem="9sc-O8-qaP" firstAttribute="width" secondItem="cC7-Fp-wya" secondAttribute="width" id="Z0g-jq-vmE"/>
                             <constraint firstItem="5fh-Sg-8D7" firstAttribute="trailing" secondItem="9jf-OH-hAg" secondAttribute="trailing" constant="39" id="alN-qk-UQX"/>
                             <constraint firstItem="9sc-O8-qaP" firstAttribute="leading" secondItem="cC7-Fp-wya" secondAttribute="leading" id="jvQ-BR-Srf"/>
+                            <constraint firstItem="awH-O9-Eoq" firstAttribute="top" secondItem="E9V-9P-o12" secondAttribute="bottom" constant="63" id="kKR-mp-fkk"/>
                             <constraint firstItem="9jf-OH-hAg" firstAttribute="centerX" secondItem="Nni-rT-2mg" secondAttribute="centerX" id="u2q-gJ-oYZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5fh-Sg-8D7"/>

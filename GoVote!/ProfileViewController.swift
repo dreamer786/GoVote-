@@ -38,7 +38,7 @@ class ProfileViewController: UIViewController {
         link.dataDetectorTypes = .link
         link.text = candidateInfo!["link"]
         link.font = UIFont(name: (link.font?.fontName)!, size: 18)
-        abortion.text = "Abortion: \(candidateInfo!["abortion"]!))"
+        abortion.text = "Abortion: \(candidateInfo!["abortion"]!)"
         gunControl.text = "Gun Control: \(candidateInfo!["gunControl"]!)"
         muslimBan.text = "Muslim Ban: \(candidateInfo!["muslimBan"]!)"
         weedLegalization.text = "Weed Legalization: \(candidateInfo!["weedLegalization"]!)"
