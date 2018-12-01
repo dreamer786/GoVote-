@@ -40,6 +40,7 @@
 		21BC1CEC3E4ABFE48C675181 /* Pods_GoVote_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */; };
 		3900CD5E21B30D3C00EE483B /* envelope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3900CD5D21B30D3C00EE483B /* envelope.jpg */; };
 		3900CD6021B30DBC00EE483B /* books.png in Resources */ = {isa = PBXBuildFile; fileRef = 3900CD5F21B30DBC00EE483B /* books.png */; };
+		3900CD6221B3157700EE483B /* magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 3900CD6121B3157600EE483B /* magnify.png */; };
 		3918D588219CF18300CD5749 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3918D587219CF18300CD5749 /* ProfileViewController.swift */; };
 		3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926B7F72198A5F300FE5217 /* NavigationViewController.swift */; };
 		39A5DE7221AE2FC300B9D90F /* Cardin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6221AE2FC100B9D90F /* Cardin.jpg */; };
@@ -121,6 +122,7 @@
 		312430A16CB626B7F0725EEB /* Pods-GoVote!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!Tests/Pods-GoVote!Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3900CD5D21B30D3C00EE483B /* envelope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = envelope.jpg; sourceTree = "<group>"; };
 		3900CD5F21B30DBC00EE483B /* books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = books.png; sourceTree = "<group>"; };
+		3900CD6121B3157600EE483B /* magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnify.png; sourceTree = "<group>"; };
 		3918D587219CF18300CD5749 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3926B7F72198A5F300FE5217 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		39A5DE6221AE2FC100B9D90F /* Cardin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cardin.jpg; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				39A5DE6921AE2FC200B9D90F /* Burr.jpg */,
 				3900CD5F21B30DBC00EE483B /* books.png */,
 				39A5DE6221AE2FC100B9D90F /* Cardin.jpg */,
+				3900CD6121B3157600EE483B /* magnify.png */,
 				39A5DE6821AE2FC100B9D90F /* Carper.jpg */,
 				39A5DE6D21AE2FC200B9D90F /* Casey.jpg */,
 				39A5DE6F21AE2FC200B9D90F /* Coons.jpg */,
@@ -454,6 +457,7 @@
 				39A5DE7821AE2FC300B9D90F /* Carper.jpg in Resources */,
 				182EA3862198BD3D00A816B4 /* GoogleService-Info.plist in Resources */,
 				18BDA7DA21AE0E46008F2C41 /* Leahy.jpg in Resources */,
+				3900CD6221B3157700EE483B /* magnify.png in Resources */,
 				39A5DE7621AE2FC300B9D90F /* Rubio.jpg in Resources */,
 				182EA35821989A7100A816B4 /* Assets.xcassets in Resources */,
 				39A5DE7921AE2FC300B9D90F /* Burr.jpg in Resources */,
