@@ -62,6 +62,7 @@
 		39A5DE8521AE35D900B9D90F /* Logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE8421AE35D900B9D90F /* Logo.jpeg */; };
 		39D3267F21B3223F00AEF312 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D3267E21B3223E00AEF312 /* pencil.png */; };
 		39D3268121B3224D00AEF312 /* lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = 39D3268021B3224C00AEF312 /* lightbulb.png */; };
+		39D3268321B32DA400AEF312 /* launchscreen.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 39D3268221B32DA400AEF312 /* launchscreen.jpeg */; };
 		4E3253E06D629A503084BDFF /* Pods_GoVote_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3449C95C5FCA5881B0AEDD5 /* Pods_GoVote_Tests.framework */; };
 		D9777CB87524915FFF9C4E15 /* Pods_GoVote_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1100E2EAB2FF6D3FCEA9523E /* Pods_GoVote_.framework */; };
 /* End PBXBuildFile section */
@@ -146,6 +147,7 @@
 		39A5DE8421AE35D900B9D90F /* Logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpeg; sourceTree = "<group>"; };
 		39D3267E21B3223E00AEF312 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 		39D3268021B3224C00AEF312 /* lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightbulb.png; sourceTree = "<group>"; };
+		39D3268221B32DA400AEF312 /* launchscreen.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchscreen.jpeg; sourceTree = "<group>"; };
 		40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoVote_UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FA5CADAFC51351EEB4AE667 /* Pods-GoVote!UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!UITests/Pods-GoVote!UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9FB9F03281289D26110FDB20 /* Pods-GoVote!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!/Pods-GoVote!.debug.xcconfig"; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 		18CA8BEF21AC51F400D9B1F0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				39D3268221B32DA400AEF312 /* launchscreen.jpeg */,
 				39D3268021B3224C00AEF312 /* lightbulb.png */,
 				39D3267E21B3223E00AEF312 /* pencil.png */,
 				3900CD5D21B30D3C00EE483B /* envelope.jpg */,
@@ -444,6 +447,7 @@
 				39A5DE7221AE2FC300B9D90F /* Cardin.jpg in Resources */,
 				39A5DE7E21AE2FC300B9D90F /* Warner.jpg in Resources */,
 				3900CD5E21B30D3C00EE483B /* envelope.jpg in Resources */,
+				39D3268321B32DA400AEF312 /* launchscreen.jpeg in Resources */,
 				18BDA7EC21AE1041008F2C41 /* Reed.jpg in Resources */,
 				18BDA7E521AE102F008F2C41 /* Whitehouse.jpg in Resources */,
 				39A5DE7D21AE2FC300B9D90F /* Casey.jpg in Resources */,
