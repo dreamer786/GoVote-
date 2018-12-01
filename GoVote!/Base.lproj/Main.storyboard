@@ -469,10 +469,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UPCOMING ELECTIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nni-rT-2mg">
-                                <rect key="frame" x="96" y="121" width="185" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nni-rT-2mg">
+                                <rect key="frame" x="95.5" y="121" width="186.5" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="UPCOMING ELECTIONS">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Optima-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9sc-O8-qaP">
@@ -481,31 +486,72 @@
                                     <navigationItem id="Au6-27-CKX"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="General Election: Nov 3, 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wef-Ov-epw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wef-Ov-epw">
                                 <rect key="frame" x="41" y="200" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="General Election: Nov 3, 2020">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Optima-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Up for election: President, House of Representatives, Senate Class II" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jf-OH-hAg">
-                                <rect key="frame" x="41" y="238" width="295" height="90"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9jf-OH-hAg">
+                                <rect key="frame" x="41" y="238" width="295" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="62" id="Fsi-ta-mcI"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Up for election: President, House of Representatives, Senate Class II">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Optima-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9V-9P-o12">
-                                <rect key="frame" x="41" y="360" width="108" height="30"/>
-                                <state key="normal" title="Register to vote"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9V-9P-o12">
+                                <rect key="frame" x="57" y="359" width="29" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Register to vote" image="pencil.png"/>
                                 <connections>
                                     <action selector="registerToVote:" destination="GIo-Fc-sDH" eventType="touchUpInside" id="jnx-rV-fL0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awH-O9-Eoq">
-                                <rect key="frame" x="41" y="453" width="120" height="30"/>
-                                <state key="normal" title="Election reminder"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVz-bH-qDV">
+                                <rect key="frame" x="100" y="440" width="135" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Election Reminder">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Optima-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bW6-Bt-PhO">
+                                <rect key="frame" x="100" y="378" width="113" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Register to Vote">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Optima-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="q8Y-xu-0mn">
+                                <rect key="frame" x="67" y="539" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awH-O9-Eoq">
+                                <rect key="frame" x="52" y="427" width="29" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Election reminder" image="lightbulb.png"/>
                                 <connections>
                                     <action selector="electionReminder:" destination="GIo-Fc-sDH" eventType="touchUpInside" id="d4K-KF-NAK"/>
                                 </connections>
@@ -514,18 +560,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="9jf-OH-hAg" firstAttribute="top" secondItem="Wef-Ov-epw" secondAttribute="bottom" constant="17" id="0eG-4S-Ncg"/>
-                            <constraint firstItem="9jf-OH-hAg" firstAttribute="leading" secondItem="awH-O9-Eoq" secondAttribute="leading" id="1Wv-mE-67P"/>
                             <constraint firstItem="9jf-OH-hAg" firstAttribute="leading" secondItem="5fh-Sg-8D7" secondAttribute="leading" constant="41" id="6NG-zo-Gez"/>
                             <constraint firstItem="9sc-O8-qaP" firstAttribute="top" secondItem="cC7-Fp-wya" secondAttribute="topMargin" constant="-56" id="6tO-yB-Z2H"/>
                             <constraint firstItem="Wef-Ov-epw" firstAttribute="top" secondItem="Nni-rT-2mg" secondAttribute="bottom" constant="58" id="Lgc-je-1Kh"/>
-                            <constraint firstItem="E9V-9P-o12" firstAttribute="top" secondItem="9jf-OH-hAg" secondAttribute="bottom" constant="60" id="Nzt-im-8me"/>
                             <constraint firstItem="9jf-OH-hAg" firstAttribute="leading" secondItem="Wef-Ov-epw" secondAttribute="leading" id="S1I-if-bSW"/>
-                            <constraint firstItem="9jf-OH-hAg" firstAttribute="leading" secondItem="E9V-9P-o12" secondAttribute="leading" id="Wrv-9c-6N4"/>
                             <constraint firstItem="Nni-rT-2mg" firstAttribute="top" secondItem="9sc-O8-qaP" secondAttribute="bottom" constant="69" id="YQb-au-0QA"/>
                             <constraint firstItem="9sc-O8-qaP" firstAttribute="width" secondItem="cC7-Fp-wya" secondAttribute="width" id="Z0g-jq-vmE"/>
                             <constraint firstItem="5fh-Sg-8D7" firstAttribute="trailing" secondItem="9jf-OH-hAg" secondAttribute="trailing" constant="39" id="alN-qk-UQX"/>
                             <constraint firstItem="9sc-O8-qaP" firstAttribute="leading" secondItem="cC7-Fp-wya" secondAttribute="leading" id="jvQ-BR-Srf"/>
-                            <constraint firstItem="awH-O9-Eoq" firstAttribute="top" secondItem="E9V-9P-o12" secondAttribute="bottom" constant="63" id="kKR-mp-fkk"/>
                             <constraint firstItem="9jf-OH-hAg" firstAttribute="centerX" secondItem="Nni-rT-2mg" secondAttribute="centerX" id="u2q-gJ-oYZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5fh-Sg-8D7"/>
@@ -583,6 +625,8 @@
         <image name="Logo.jpeg" width="1024" height="1024"/>
         <image name="books.png" width="960" height="504"/>
         <image name="envelope.jpg" width="615" height="410"/>
+        <image name="lightbulb.png" width="500" height="846"/>
         <image name="magnify.png" width="481" height="720"/>
+        <image name="pencil.png" width="515" height="720"/>
     </resources>
 </document>
