@@ -32,7 +32,7 @@ class ProfileViewController: UIViewController {
             party.text = "Party: Republican"
         }
         var myImage = UIImage(named: "\(candidateInfo!["lastName"]!).jpg")
-        myImage = myImage?.resize(targetSize: senatorImg.frame.size)
+        //myImage = myImage?.resize(targetSize: senatorImg.frame.size)
         senatorImg.image = myImage
         link.isEditable = false
         link.dataDetectorTypes = .link
