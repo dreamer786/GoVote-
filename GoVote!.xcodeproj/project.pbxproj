@@ -38,6 +38,8 @@
 		18CA8BF121AC522000D9B1F0 /* Collins.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CA8BF021AC521F00D9B1F0 /* Collins.jpg */; };
 		18CA8BF321AC570400D9B1F0 /* King.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CA8BF221AC570400D9B1F0 /* King.jpg */; };
 		21BC1CEC3E4ABFE48C675181 /* Pods_GoVote_UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FCBDDBA089721AFBD8ACD9 /* Pods_GoVote_UITests.framework */; };
+		3900CD5E21B30D3C00EE483B /* envelope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3900CD5D21B30D3C00EE483B /* envelope.jpg */; };
+		3900CD6021B30DBC00EE483B /* books.png in Resources */ = {isa = PBXBuildFile; fileRef = 3900CD5F21B30DBC00EE483B /* books.png */; };
 		3918D588219CF18300CD5749 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3918D587219CF18300CD5749 /* ProfileViewController.swift */; };
 		3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926B7F72198A5F300FE5217 /* NavigationViewController.swift */; };
 		39A5DE7221AE2FC300B9D90F /* Cardin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6221AE2FC100B9D90F /* Cardin.jpg */; };
@@ -117,6 +119,8 @@
 		18CA8BF021AC521F00D9B1F0 /* Collins.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Collins.jpg; sourceTree = "<group>"; };
 		18CA8BF221AC570400D9B1F0 /* King.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = King.jpg; sourceTree = "<group>"; };
 		312430A16CB626B7F0725EEB /* Pods-GoVote!Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoVote!Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoVote!Tests/Pods-GoVote!Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3900CD5D21B30D3C00EE483B /* envelope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = envelope.jpg; sourceTree = "<group>"; };
+		3900CD5F21B30DBC00EE483B /* books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = books.png; sourceTree = "<group>"; };
 		3918D587219CF18300CD5749 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3926B7F72198A5F300FE5217 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		39A5DE6221AE2FC100B9D90F /* Cardin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cardin.jpg; sourceTree = "<group>"; };
@@ -257,8 +261,10 @@
 		18CA8BEF21AC51F400D9B1F0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				3900CD5D21B30D3C00EE483B /* envelope.jpg */,
 				39A5DE8421AE35D900B9D90F /* Logo.jpeg */,
 				39A5DE6921AE2FC200B9D90F /* Burr.jpg */,
+				3900CD5F21B30DBC00EE483B /* books.png */,
 				39A5DE6221AE2FC100B9D90F /* Cardin.jpg */,
 				39A5DE6821AE2FC100B9D90F /* Carper.jpg */,
 				39A5DE6D21AE2FC200B9D90F /* Casey.jpg */,
@@ -428,6 +434,7 @@
 				18BDA7D921AE0E46008F2C41 /* Shaheen.jpg in Resources */,
 				39A5DE7221AE2FC300B9D90F /* Cardin.jpg in Resources */,
 				39A5DE7E21AE2FC300B9D90F /* Warner.jpg in Resources */,
+				3900CD5E21B30D3C00EE483B /* envelope.jpg in Resources */,
 				18BDA7EC21AE1041008F2C41 /* Reed.jpg in Resources */,
 				18BDA7E521AE102F008F2C41 /* Whitehouse.jpg in Resources */,
 				39A5DE7D21AE2FC300B9D90F /* Casey.jpg in Resources */,
@@ -452,6 +459,7 @@
 				39A5DE7921AE2FC300B9D90F /* Burr.jpg in Resources */,
 				39A5DE8521AE35D900B9D90F /* Logo.jpeg in Resources */,
 				182EA35621989A6F00A816B4 /* Main.storyboard in Resources */,
+				3900CD6021B30DBC00EE483B /* books.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
