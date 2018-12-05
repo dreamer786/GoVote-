@@ -22,7 +22,7 @@
                                 <rect key="frame" x="49" y="194" width="277" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="box.png" translatesAutoresizingMaskIntoConstraints="NO" id="vnn-l1-YmU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vnn-l1-YmU">
                                 <rect key="frame" x="91" y="347" width="192" height="152"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -38,6 +38,5 @@
     </scenes>
     <resources>
         <image name="Logo.jpeg" width="1024" height="1024"/>
-        <image name="box.png" width="476" height="354"/>
     </resources>
 </document>
