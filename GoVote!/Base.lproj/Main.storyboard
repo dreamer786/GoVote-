@@ -66,18 +66,20 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R28-As-dIy">
                                 <rect key="frame" x="153" y="333" width="69" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" label="Hello"/>
                                 <state key="normal" title="Find general info" image="envelope.jpg"/>
                                 <connections>
                                     <segue destination="GIo-Fc-sDH" kind="show" id="JMd-bR-qhd"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="AIF-Ab-nXH">
-                                <rect key="frame" x="67" y="539" width="240" height="128"/>
+                                <rect key="frame" x="66.638316777745786" y="539" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jy0-eA-C8T">
                                 <rect key="frame" x="137" y="200" width="101" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <size key="titleShadowOffset" width="1" height="0.0"/>
                                 <state key="normal" title="FInd your senator(s) match!" image="books.png"/>
                                 <connections>
                                     <segue destination="5Hh-yI-PCj" kind="show" id="3f4-q9-7eg"/>
@@ -354,20 +356,6 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2A-LP-aTi">
-                                                <rect key="frame" x="53" y="728" width="269" height="33"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="33" id="GKG-6e-f1O"/>
-                                                </constraints>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Gun Control: ">
-                                                        <attributes>
-                                                            <font key="NSFont" size="17" name="Optima-Regular"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="72E-Jj-oTt">
                                                 <rect key="frame" x="55" y="681" width="267" height="21"/>
                                                 <attributedString key="attributedText">
@@ -379,6 +367,21 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BIs-jq-Uvn">
+                                                <rect key="frame" x="48" y="783" width="269" height="59"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="59" id="zKE-Uf-dKF"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="link">
+                                                        <attributes>
+                                                            <font key="NSFont" size="14" name="Optima-Regular"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVH-4F-nMW">
                                                 <rect key="frame" x="53" y="569" width="258" height="34"/>
                                                 <constraints>
@@ -423,21 +426,20 @@
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BIs-jq-Uvn">
-                                                <rect key="frame" x="48" y="783" width="269" height="59"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2A-LP-aTi">
+                                                <rect key="frame" x="53" y="730" width="269" height="33"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="59" id="zKE-Uf-dKF"/>
+                                                    <constraint firstAttribute="height" constant="33" id="GKG-6e-f1O"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="link">
+                                                    <fragment content="Gun Control: ">
                                                         <attributes>
-                                                            <font key="NSFont" size="14" name="Optima-Regular"/>
+                                                            <font key="NSFont" size="17" name="Optima-Regular"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -598,7 +600,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="q8Y-xu-0mn">
-                                <rect key="frame" x="67" y="539" width="240" height="128"/>
+                                <rect key="frame" x="65.922578386738678" y="539" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awH-O9-Eoq">

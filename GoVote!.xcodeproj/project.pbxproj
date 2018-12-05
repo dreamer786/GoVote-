@@ -41,6 +41,7 @@
 		3900CD5E21B30D3C00EE483B /* envelope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3900CD5D21B30D3C00EE483B /* envelope.jpg */; };
 		3900CD6021B30DBC00EE483B /* books.png in Resources */ = {isa = PBXBuildFile; fileRef = 3900CD5F21B30DBC00EE483B /* books.png */; };
 		3900CD6221B3157700EE483B /* magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 3900CD6121B3157600EE483B /* magnify.png */; };
+		39046DC621B7611C004251AD /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 39046DC521B7611B004251AD /* box.png */; };
 		3918D588219CF18300CD5749 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3918D587219CF18300CD5749 /* ProfileViewController.swift */; };
 		3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926B7F72198A5F300FE5217 /* NavigationViewController.swift */; };
 		39A5DE7221AE2FC300B9D90F /* Cardin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6221AE2FC100B9D90F /* Cardin.jpg */; };
@@ -126,6 +127,7 @@
 		3900CD5D21B30D3C00EE483B /* envelope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = envelope.jpg; sourceTree = "<group>"; };
 		3900CD5F21B30DBC00EE483B /* books.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = books.png; sourceTree = "<group>"; };
 		3900CD6121B3157600EE483B /* magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnify.png; sourceTree = "<group>"; };
+		39046DC521B7611B004251AD /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
 		3918D587219CF18300CD5749 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3926B7F72198A5F300FE5217 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		39A5DE6221AE2FC100B9D90F /* Cardin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cardin.jpg; sourceTree = "<group>"; };
@@ -269,6 +271,7 @@
 		18CA8BEF21AC51F400D9B1F0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				39046DC521B7611B004251AD /* box.png */,
 				39D3268221B32DA400AEF312 /* launchscreen.jpeg */,
 				39D3268021B3224C00AEF312 /* lightbulb.png */,
 				39D3267E21B3223E00AEF312 /* pencil.png */,
@@ -456,6 +459,7 @@
 				39A5DE8021AE2FC300B9D90F /* Isakson.jpg in Resources */,
 				39A5DE7B21AE2FC300B9D90F /* Nelson.jpg in Resources */,
 				39A5DE7F21AE2FC300B9D90F /* Coons.jpg in Resources */,
+				39046DC621B7611C004251AD /* box.png in Resources */,
 				18BDA7D821AE0E46008F2C41 /* Sanders.jpg in Resources */,
 				18BDA7D421AE0D92008F2C41 /* Hassan.jpg in Resources */,
 				18BDA7E621AE102F008F2C41 /* Warren.jpg in Resources */,
