@@ -43,6 +43,7 @@
 		3900CD6221B3157700EE483B /* magnify.png in Resources */ = {isa = PBXBuildFile; fileRef = 3900CD6121B3157600EE483B /* magnify.png */; };
 		3918D588219CF18300CD5749 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3918D587219CF18300CD5749 /* ProfileViewController.swift */; };
 		3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926B7F72198A5F300FE5217 /* NavigationViewController.swift */; };
+		39829D2B21B8300200614B69 /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 39829D2A21B8300200614B69 /* box.png */; };
 		39A5DE7221AE2FC300B9D90F /* Cardin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6221AE2FC100B9D90F /* Cardin.jpg */; };
 		39A5DE7321AE2FC300B9D90F /* Toomey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6321AE2FC100B9D90F /* Toomey.jpg */; };
 		39A5DE7421AE2FC300B9D90F /* Scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39A5DE6421AE2FC100B9D90F /* Scott.jpg */; };
@@ -127,6 +128,7 @@
 		3900CD6121B3157600EE483B /* magnify.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnify.png; sourceTree = "<group>"; };
 		3918D587219CF18300CD5749 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3926B7F72198A5F300FE5217 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		39829D2A21B8300200614B69 /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
 		39A5DE6221AE2FC100B9D90F /* Cardin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cardin.jpg; sourceTree = "<group>"; };
 		39A5DE6321AE2FC100B9D90F /* Toomey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Toomey.jpg; sourceTree = "<group>"; };
 		39A5DE6421AE2FC100B9D90F /* Scott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Scott.jpg; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 		18CA8BEF21AC51F400D9B1F0 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				39829D2A21B8300200614B69 /* box.png */,
 				39D3268021B3224C00AEF312 /* lightbulb.png */,
 				39D3267E21B3223E00AEF312 /* pencil.png */,
 				3900CD5D21B30D3C00EE483B /* envelope.jpg */,
@@ -430,6 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39829D2B21B8300200614B69 /* box.png in Resources */,
 				39A5DE7321AE2FC300B9D90F /* Toomey.jpg in Resources */,
 				18CA8BF121AC522000D9B1F0 /* Collins.jpg in Resources */,
 				39A5DE7421AE2FC300B9D90F /* Scott.jpg in Resources */,
@@ -759,6 +763,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL2XX3FUN8;
 				INFOPLIST_FILE = "GoVote!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -777,6 +782,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DL2XX3FUN8;
 				INFOPLIST_FILE = "GoVote!/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
