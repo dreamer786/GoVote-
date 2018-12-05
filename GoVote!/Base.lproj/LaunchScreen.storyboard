@@ -38,6 +38,6 @@
     </scenes>
     <resources>
         <image name="Logo.jpeg" width="1024" height="1024"/>
-        <image name="box.png" width="538" height="451"/>
+        <image name="box.png" width="476" height="354"/>
     </resources>
 </document>
