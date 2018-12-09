@@ -116,6 +116,14 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Vd-wy-GmK">
+                                <rect key="frame" x="124" y="474" width="127" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Find State Senator"/>
+                                <connections>
+                                    <segue destination="vAI-Nx-ecP" kind="show" id="xXE-Cn-8Uo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -675,6 +683,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DxA-rH-qwl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2493.5999999999999" y="839.73013493253382"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="5QB-tp-ZTO">
+            <objects>
+                <viewController id="vAI-Nx-ecP" customClass="MapViewController" customModule="GoVote_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HTR-rK-K1h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9kg-Uq-Esf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9kg-Uq-Esf" firstAttribute="top" secondItem="NLo-6p-AGN" secondAttribute="top" id="Gsk-hg-hpd"/>
+                            <constraint firstItem="9kg-Uq-Esf" firstAttribute="leading" secondItem="NLo-6p-AGN" secondAttribute="leading" id="J2C-ss-cZ3"/>
+                            <constraint firstItem="9kg-Uq-Esf" firstAttribute="bottom" secondItem="NLo-6p-AGN" secondAttribute="bottom" id="sXX-62-eDD"/>
+                            <constraint firstItem="9kg-Uq-Esf" firstAttribute="trailing" secondItem="NLo-6p-AGN" secondAttribute="trailing" id="ylC-uX-3Wp"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NLo-6p-AGN"/>
+                    </view>
+                    <connections>
+                        <outlet property="scrollView" destination="9kg-Uq-Esf" id="TlP-VF-9xE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bru-Ly-spm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4160.8000000000002" y="903.59820089955031"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Xjk-ht-6Hj">
