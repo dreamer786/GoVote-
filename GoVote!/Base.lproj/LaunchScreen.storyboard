@@ -18,16 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="JJP-hy-iku">
-                                <rect key="frame" x="49" y="155" width="293" height="181"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Logo.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="JJP-hy-iku">
+                                <rect key="frame" x="-323.5" y="155" width="1024" height="181"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JJP-hy-iku" secondAttribute="height" multiplier="1024:181" id="eTw-Pf-nos"/>
+                                    <constraint firstAttribute="height" constant="181" id="zbE-QD-KJ5"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="box.png" translatesAutoresizingMaskIntoConstraints="NO" id="vnn-l1-YmU">
-                                <rect key="frame" x="84" y="277" width="206" height="201"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="box.png" translatesAutoresizingMaskIntoConstraints="NO" id="vnn-l1-YmU">
+                                <rect key="frame" x="-75.5" y="277" width="526" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="1U4-0A-JrE"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vnn-l1-YmU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fMq-Me-joe"/>
+                            <constraint firstItem="JJP-hy-iku" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tqC-gh-0Ui"/>
+                            <constraint firstItem="JJP-hy-iku" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="156" id="urM-0h-PZu"/>
+                            <constraint firstItem="vnn-l1-YmU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="257" id="zPC-LN-JnE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
