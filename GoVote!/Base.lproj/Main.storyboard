@@ -126,12 +126,12 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cT4-q2-nDq">
-                                <rect key="frame" x="121" y="497" width="127" height="21"/>
+                                <rect key="frame" x="121" y="497" width="129" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Find My Senators">
                                         <attributes>
-                                            <font key="NSFont" size="17" name="Optima-Regular"/>
+                                            <font key="NSFont" size="17" name="Optima-Bold"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>

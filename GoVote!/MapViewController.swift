@@ -53,6 +53,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
                     let myLocation = placemarks?[0]
                     if myLocation?.administrativeArea != nil {
                         self.state = (myLocation?.administrativeArea)!
+                        print(self.state)
                     }
                     completionHandler(myLocation)
                 }

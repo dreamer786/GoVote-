@@ -30,11 +30,14 @@ class MapResultsViewController: UITableViewController{
         let _ = myData.observe(.childAdded, with: { snapshot in
             let dict = snapshot.value as![String: String]
             let myState: String? = dict["state"]
-            if self.state == "New York" {
+            self.state = "NY"
+            if self.state == myState {
+                self.results.append(dict )
+            /*if self.state == "New York" {
                 self.state = "NY"
                 if myState == self.state{
                 self.results.append(dict)
-            }
+            }*/
             }
             self.tableView.reloadData()
         }) {(error) in
