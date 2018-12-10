@@ -692,26 +692,72 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9kg-Uq-Esf">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                            </scrollView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="uAX-gJ-UCP">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="567"/>
+                                <viewLayoutGuide key="safeArea" id="zck-A3-7bG"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTe-Zt-N1J">
+                                <rect key="frame" x="26" y="583" width="51" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="51" id="0ra-aL-MGO"/>
+                                    <constraint firstAttribute="width" constant="51" id="FWl-6u-lBw"/>
+                                    <constraint firstAttribute="height" constant="72" id="Y7T-Ro-Kc9"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="72" id="gBK-LF-Pmn"/>
+                                </constraints>
+                                <state key="normal" title="Find my senators" image="magnify.png"/>
+                                <connections>
+                                    <segue destination="eZj-xB-L8X" kind="show" id="jed-gf-WXZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCq-QM-9Ns">
+                                <rect key="frame" x="87" y="609" width="127" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Find My Senators">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="Optima-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="9kg-Uq-Esf" firstAttribute="top" secondItem="NLo-6p-AGN" secondAttribute="top" id="Gsk-hg-hpd"/>
-                            <constraint firstItem="9kg-Uq-Esf" firstAttribute="leading" secondItem="NLo-6p-AGN" secondAttribute="leading" id="J2C-ss-cZ3"/>
-                            <constraint firstItem="9kg-Uq-Esf" firstAttribute="bottom" secondItem="NLo-6p-AGN" secondAttribute="bottom" id="sXX-62-eDD"/>
-                            <constraint firstItem="9kg-Uq-Esf" firstAttribute="trailing" secondItem="NLo-6p-AGN" secondAttribute="trailing" id="ylC-uX-3Wp"/>
+                            <constraint firstItem="DTe-Zt-N1J" firstAttribute="leading" secondItem="HTR-rK-K1h" secondAttribute="leading" constant="26" id="AmY-Ya-ijU"/>
+                            <constraint firstItem="uAX-gJ-UCP" firstAttribute="top" secondItem="HTR-rK-K1h" secondAttribute="top" id="Ech-Oc-CTb"/>
+                            <constraint firstAttribute="bottom" secondItem="SCq-QM-9Ns" secondAttribute="bottom" constant="37" id="KMA-cv-N1K"/>
+                            <constraint firstAttribute="bottom" secondItem="DTe-Zt-N1J" secondAttribute="bottom" constant="12" id="Lf2-Km-l1r"/>
+                            <constraint firstItem="uAX-gJ-UCP" firstAttribute="leading" secondItem="HTR-rK-K1h" secondAttribute="leading" id="Sm3-N5-rwc"/>
+                            <constraint firstItem="SCq-QM-9Ns" firstAttribute="leading" secondItem="DTe-Zt-N1J" secondAttribute="trailing" constant="10" id="URK-UX-cUc"/>
+                            <constraint firstItem="SCq-QM-9Ns" firstAttribute="leading" secondItem="DTe-Zt-N1J" secondAttribute="trailing" constant="10" id="Wpg-dH-2jJ"/>
+                            <constraint firstAttribute="bottom" secondItem="uAX-gJ-UCP" secondAttribute="bottom" constant="100" id="a7r-YR-ejY"/>
+                            <constraint firstItem="uAX-gJ-UCP" firstAttribute="trailing" secondItem="HTR-rK-K1h" secondAttribute="trailing" id="xu4-NS-oSI"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NLo-6p-AGN"/>
                     </view>
                     <connections>
-                        <outlet property="scrollView" destination="9kg-Uq-Esf" id="TlP-VF-9xE"/>
+                        <outlet property="MapView" destination="uAX-gJ-UCP" id="UFh-EU-EmG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bru-Ly-spm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4160.8000000000002" y="903.59820089955031"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fnj-cX-USk">
+            <objects>
+                <viewController id="eZj-xB-L8X" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Hat-3j-t06">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="2Yh-BS-RKk"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X03-dK-n1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4909" y="909"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Xjk-ht-6Hj">
@@ -737,7 +783,7 @@
         <image name="books.png" width="960" height="504"/>
         <image name="envelope.jpg" width="615" height="410"/>
         <image name="lightbulb.png" width="500" height="846"/>
-        <image name="magnify.png" width="481" height="720"/>
+        <image name="magnify.png" width="408" height="556"/>
         <image name="pencil.png" width="515" height="720"/>
     </resources>
 </document>
