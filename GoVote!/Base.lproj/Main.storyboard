@@ -706,7 +706,7 @@
                                 </constraints>
                                 <state key="normal" title="Find my senators" image="magnify.png"/>
                                 <connections>
-                                    <segue destination="eZj-xB-L8X" kind="show" id="jed-gf-WXZ"/>
+                                    <segue destination="mqc-nQ-Mix" kind="show" id="Wqg-1Z-dQ0"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SCq-QM-9Ns">
@@ -737,27 +737,40 @@
                         <viewLayoutGuide key="safeArea" id="NLo-6p-AGN"/>
                     </view>
                     <connections>
-                        <outlet property="MapView" destination="uAX-gJ-UCP" id="UFh-EU-EmG"/>
+                        <outlet property="mapView" destination="uAX-gJ-UCP" id="bSQ-yS-JG1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bru-Ly-spm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4160.8000000000002" y="903.59820089955031"/>
+            <point key="canvasLocation" x="3308" y="899"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="fnj-cX-USk">
+        <!--Map Results View Controller-->
+        <scene sceneID="Bu1-6I-R5Q">
             <objects>
-                <viewController id="eZj-xB-L8X" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Hat-3j-t06">
+                <tableViewController id="mqc-nQ-Mix" customClass="MapResultsViewController" customModule="GoVote_" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5n2-Fp-2am">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="2Yh-BS-RKk"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="X03-dK-n1G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="kkE-fs-Vxq">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kkE-fs-Vxq" id="teM-0M-A6P">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="mqc-nQ-Mix" id="Ubi-3F-OaX"/>
+                            <outlet property="delegate" destination="mqc-nQ-Mix" id="7tO-wh-CqY"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rfm-IY-r9V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4909" y="909"/>
+            <point key="canvasLocation" x="4230" y="955"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Xjk-ht-6Hj">
