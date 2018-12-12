@@ -27,6 +27,9 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         mapView.showsUserLocation = true
         locationManager.requestLocation()
+        lookUpCurrentLocation { (placement) in
+            
+        }
     }
     
     override func didReceiveMemoryWarning() {
@@ -36,7 +39,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         /*if let lat = locations.last?.coordinate.latitude, let long = locations.last?.coordinate.longitude {
         }*/
-        self.location = locations.last as CLLocation!
+        self.location = locations.last as! CLLocation
     }
     
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
@@ -51,6 +54,12 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
             geocoder.reverseGeocodeLocation(lastLocation, completionHandler: { (placemarks, error) in
                 if error == nil {
                     let myLocation = placemarks?[0]
+                    if myLocation == nil{
+                        print("nil")
+                        
+                    }
+                    print(myLocation?.administrativeArea)
+                    print(myLocation?.country)
                     if myLocation?.administrativeArea != nil {
                         self.state = (myLocation?.administrativeArea)!
                         print(self.state)
@@ -58,6 +67,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
                     completionHandler(myLocation)
                 }
                 else {
+                    print("Theres an error")
                     completionHandler(nil)
                 }
             })
@@ -70,7 +80,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
   
         let myDestination = segue.destination as! MapResultsViewController
-        
+        print(state)
         myDestination.state = state
         
         
